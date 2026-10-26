@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T06:38:12.685Z",
+  "checkedAt": "2026-10-26T12:55:37.824Z",
   "status": "PASS",
   "scope": "Synthetic V0 local SQLite/domain/UI tests on Linux Flutter host",
   "sourceDigest": "c22581d5b5fb416ba2d0eae665015542e3c6aec6d30632d162208b84e63d0d59",
@@ -188,12 +188,12 @@
       "skipped": false
     },
     {
-      "name": "committed SQLite item survives child-process SIGKILL without graceful close",
+      "name": "reserved Add area / small-portrait / seeded",
       "result": "success",
       "skipped": false
     },
     {
-      "name": "reserved Add area / small-portrait / seeded",
+      "name": "committed SQLite item survives child-process SIGKILL without graceful close",
       "result": "success",
       "skipped": false
     },

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T06:45:16.821Z",
+  "checkedAt": "2026-10-26T12:54:26.651Z",
   "status": "FAIL",
   "scope": "Offline cross-check of the Home action fix, 41 host tests and new static debug build; not a new phone run",
   "checks": [
