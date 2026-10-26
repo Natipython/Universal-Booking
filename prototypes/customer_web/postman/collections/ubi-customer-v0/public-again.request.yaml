@@ -1,0 +1,25 @@
+$kind: http-request
+method: GET
+url: '{{base_url}}/'
+order: 13000
+settings:
+  followRedirects: false
+headers:
+  - key: 'Origin'
+    value: '{{base_url}}'
+scripts:
+  - type: beforeRequest
+    language: text/javascript
+    code: |-
+      if(!/^http:\/\/127\.0\.0\.1:\d+$/.test(pm.variables.get('base_url'))){pm.execution.skipRequest();throw new Error('Refusing non-loopback demo target');}
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test('status 200',()=>pm.response.to.have.status(200));
+      const body=pm.response.text();
+      pm.test('private cache policy',()=>pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store'));
+      pm.test('no referrer leakage',()=>pm.expect(pm.response.headers.get('Referrer-Policy')).to.eql('no-referrer'));
+      pm.test('no framing',()=>pm.expect(pm.response.headers.get('X-Frame-Options')).to.eql('DENY'));
+      const csrf=body.match(/name="csrf" value="([A-Za-z0-9_-]{43})"/);
+      pm.test('CSRF form present',()=>pm.expect(Boolean(csrf)).to.eql(true));
+      if(csrf)pm.collectionVariables.set('csrf',csrf[1]);

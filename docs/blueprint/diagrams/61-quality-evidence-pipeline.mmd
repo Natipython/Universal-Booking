@@ -1,0 +1,12 @@
+flowchart LR
+    R[Requirement / risk / invariant] --> S[Static + unit + property]
+    S --> I[PostgreSQL + integration + contract]
+    I --> C[Flutter / web / native component]
+    C --> E[End-to-end + offline + accessibility]
+    E --> N[Performance + security + failure + restore]
+    N --> F[Field usability on Ethiopian devices/networks]
+    F --> G{Release gate}
+    G -- fail --> O[Owner + corrective evidence]
+    O --> R
+    G -- pass with approved residual risk --> P[Immutable promotion]
+

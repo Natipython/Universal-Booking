@@ -1,0 +1,13 @@
+flowchart TB
+    Users[Customer / merchant tasks] --> Services[Android, web, API, workers, providers]
+    Services --> Signals[Privacy-safe logs, metrics, traces, crash + domain outcomes]
+    Services --> Audit[Separate controlled audit evidence]
+    Signals --> SLI[SLIs + capacity + cost + telemetry health]
+    SLI --> Budget[SLO and error-budget evaluation]
+    Budget --> Alert{Action needed?}
+    Alert -- Yes --> Incident[Owned alert + runbook + incident]
+    Alert -- No --> Review[Trend and release review]
+    Incident --> Learn[Correction + test + post-incident action]
+    Review --> Learn
+    Learn --> Services
+

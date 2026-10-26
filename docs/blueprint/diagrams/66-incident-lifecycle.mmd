@@ -1,0 +1,11 @@
+flowchart LR
+    Detect[Detect / report] --> Declare[Declare, classify, roles, timeline]
+    Declare --> Stabilize[Protect people, tenants, money and accepted work]
+    Stabilize --> Investigate[Facts, hypotheses, scoped evidence]
+    Investigate --> Recover[Disable / fix / rollback / failover]
+    Recover --> Verify{Task, integrity, SLO and backlog safe?}
+    Verify -- No --> Stabilize
+    Verify -- Yes --> Reconcile[Unknown outcomes, providers, devices, merchants]
+    Reconcile --> Communicate[Resolve communication and handoff]
+    Communicate --> Learn[Review, controls, tests, owners]
+

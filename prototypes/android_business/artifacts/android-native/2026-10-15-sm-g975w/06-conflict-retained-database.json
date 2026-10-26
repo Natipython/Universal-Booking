@@ -1,0 +1,51 @@
+{
+  "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-conflict-retained-synthetic.sqlite",
+  "sha256": "50acc2d7698479fa28c4474c11c39d516489a0243147ab5fd71e0fce0dcd279e",
+  "quickCheck": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "bookings": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "id": "v0_e534da84679c5686f3597748728ec2e8",
+      "service_id": "portrait",
+      "customer_label": "Demo Guest 01",
+      "source": "Call",
+      "start_ms": 1894687200000,
+      "end_ms": 1894690800000,
+      "price_minor": 200000,
+      "status": "simulatedConflict",
+      "revision": 2
+    }
+  ],
+  "outbox": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "state": "simulatedConflict"
+    }
+  ],
+  "audit": [
+    {
+      "event_id": 1,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_saved"
+    },
+    {
+      "event_id": 2,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "simulated_conflict"
+    }
+  ],
+  "drafts": [],
+  "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+}

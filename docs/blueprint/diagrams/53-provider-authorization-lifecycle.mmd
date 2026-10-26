@@ -1,0 +1,16 @@
+flowchart TD
+    A[Authorized merchant member chooses provider and operation] --> B[Show exact permissions, costs, data use and fallback]
+    B --> C[Create single-use tenant-bound OAuth transaction]
+    C --> D[Official provider authorization in system browser]
+    D --> E[Validate state, PKCE, issuer, redirect, expiry and current authority]
+    E --> F[Server exchanges code and discovers actual assets/scopes]
+    F --> G[Merchant selects exact business asset and routing]
+    G --> H[Test webhook and granted capabilities]
+    H --> I{Tests and policy eligibility pass?}
+    I -->|No| J[Keep disabled; explain correction or direct-link fallback]
+    I -->|Yes| K[Encrypt credential and activate verified capabilities]
+    K --> L[Monitor token, webhook, policy, cost and account health]
+    L --> M{Pause, revoke, policy loss or disconnect?}
+    M -->|Pause| N[Stop automation; preserve allowed human path]
+    M -->|Revoke or disconnect| O[Stop actions, revoke upstream, remove secret and reconcile retained data]
+    M -->|No| L

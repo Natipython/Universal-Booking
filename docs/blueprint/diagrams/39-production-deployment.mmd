@@ -1,0 +1,55 @@
+flowchart TB
+    Users[Android / customer web / business web]
+    Providers[Messaging / payment / notification callbacks]
+    Workforce[Authorized Ubi workforce]
+
+    subgraph Edge[Global/public edge]
+        DNS[DNS + wildcard merchant subdomains]
+        CDN[CDN / TLS / WAF / DDoS / rate controls]
+        Routes[Public web/API, provider ingress and operations routes]
+    end
+
+    subgraph Primary[Primary region - production]
+        subgraph AppZone[Private application network]
+            AppA[Application/API replica A]
+            AppB[Application/API replica B]
+            WorkerA[Worker pool A]
+            WorkerB[Worker pool B]
+        end
+
+        subgraph DataZone[Restricted data/control network]
+            DBPrimary[(Managed relational primary)]
+            DBStandby[(Synchronous/managed zone standby)]
+            Object[(Private object storage)]
+            Cache[(Optional cache/rate coordination)]
+            Secrets[Secret/key manager]
+        end
+
+        Obs[Logs / metrics / traces / alerting]
+    end
+
+    Backup[(Encrypted backup / PITR copy under separate controls)]
+    External[Approved external providers]
+
+    Users --> DNS
+    Providers --> DNS
+    Workforce --> DNS
+    DNS --> CDN
+    CDN --> Routes
+    Routes --> AppA
+    Routes --> AppB
+    AppA --> DBPrimary
+    AppB --> DBPrimary
+    WorkerA --> DBPrimary
+    WorkerB --> DBPrimary
+    DBPrimary --> DBStandby
+    AppA --> Object
+    WorkerA --> Object
+    AppA --> Cache
+    WorkerA --> Cache
+    Secrets --> AppA
+    Secrets --> WorkerA
+    AppA --> Obs
+    WorkerA --> Obs
+    DBPrimary --> Backup
+    WorkerA <--> External

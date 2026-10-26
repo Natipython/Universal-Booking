@@ -1,0 +1,12 @@
+flowchart LR
+    D[Approved product, data, payment and channel facts] --> C[Launch-country counsel drafting and review]
+    C --> R[Controlled document register and immutable versions]
+    R --> P[Product placement: signup, service, booking, payment, message, call]
+    P --> U[Plain-language notice, contract or specific choice]
+    U --> E[Minimal acceptance, presentation or withdrawal evidence]
+    E --> A[Audit, rights, dispute and support processes]
+    A --> X{Material product, law, vendor or purpose change?}
+    X -- No --> M[Scheduled review and runtime verification]
+    X -- Yes --> D
+    M --> X
+

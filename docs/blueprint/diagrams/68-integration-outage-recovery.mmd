@@ -1,0 +1,13 @@
+flowchart TD
+    Signal[Provider/Ubi health signal] --> Scope[Scope provider, app, capability, tenants, time]
+    Scope --> Pause[Stop unsafe retries; degraded or paused mode]
+    Pause --> Classify[Accepted / failed / unknown / not attempted]
+    Classify --> Fallback[Direct Ubi link, phone and manual booking fallback]
+    Classify --> Repair[Credential, adapter, provider or policy repair]
+    Repair --> Probe{Official capability and health verified?}
+    Probe -- No --> Pause
+    Probe -- Yes --> Reconcile[Reconcile gaps and unknown outcomes]
+    Reconcile --> Replay[Bounded fair policy-valid backlog replay]
+    Replay --> Verify[Delivery evidence, bookings, cost and complaints]
+    Verify --> Normal[Normal mode + merchant resolution report]
+

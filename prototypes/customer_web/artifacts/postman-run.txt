@@ -1,0 +1,217 @@
+No authorization data found. Please use the `postman login` command.
+Refer:https://learning.postman.com/docs/postman-cli/postman-cli-options/#postman-login
+
+Running your collection...
+
+Root 9bcfcf28669ae6b8d9b11ca9
+
+  GET http://127.0.0.1:44667/ [200 OK, 2.6 KB, 17 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+  Pass  scoped cookie issued
+
+Root 8cd5c65ac65ea95b2433f91e
+
+  POST http://127.0.0.1:44667/demo/starts [303 See Other, 417 B, 3 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  opaque link only
+
+Root 0ce3202d335e3912c38c0a09
+
+  GET http://127.0.0.1:44667/h/REDACTED_DEMO_SECRET [200 OK, 2.03 KB, 2 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+  Pass  no private draft in preview
+  Pass  no contact prefill
+
+Root a14d5d7e088ce01091350366
+
+  POST http://127.0.0.1:44667/v0/handoff-sessions [303 See Other, 500 B, 3 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  scoped cookie issued
+
+Root 9d27ccb22943d3b08dbb92c4
+
+  GET http://127.0.0.1:44667/continue [200 OK, 3.18 KB, 4 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+  Pass  conversation provenance
+
+Root b4ee366ac4853b4bb943818b
+
+  POST http://127.0.0.1:44667/v0/reviews [303 See Other, 378 B, 3 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root c27cd245052dd4be56838c7a
+
+  GET http://127.0.0.1:44667/review [200 OK, 2.43 KB, 2 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+  Pass  owned review present
+  Pass  edited time retained
+
+Root 664d769efc62a47a2fce2bd4
+
+  POST http://127.0.0.1:44667/v0/submissions [403 Forbidden, 1.63 KB, 2 ms]
+  Pass  status 403
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  stable rejection
+
+Root 8d3a5ced191c217a99e59233
+
+  POST http://127.0.0.1:44667/v0/submissions [303 See Other, 379 B, 9 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root 110592d42204aa7c0bd87762
+
+  GET http://127.0.0.1:44667/outcome [200 OK, 2.14 KB, 3 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  synthetic confirmation only
+  Pass  no payment claim
+
+Root f0b90e1bf3cc1abdedcd43bf
+
+  POST http://127.0.0.1:44667/v0/submissions [303 See Other, 379 B, 2 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root da375146513d9b8cb84b2179
+
+  GET http://127.0.0.1:44667/continue [401 Unauthorized, 1.64 KB, 2 ms]
+  Pass  status 401
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root 912ea4edec58fe8b29b13672
+
+  GET http://127.0.0.1:44667/ [200 OK, 2.48 KB, 1 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+
+Root fe572fb11bed53bf47d2e2d4
+
+  POST http://127.0.0.1:44667/demo/starts [303 See Other, 417 B, 1 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  opaque link only
+
+Root cdd1e67a08faf4607f54c893
+
+  GET http://127.0.0.1:44667/h/REDACTED_DEMO_SECRET [200 OK, 2.03 KB, 1 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+
+Root 1a671661f837edda2d1c529e
+
+  POST http://127.0.0.1:44667/v0/handoff-sessions [303 See Other, 500 B, 3 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  scoped cookie issued
+
+Root 9ee11081175e1fc031627e99
+
+  GET http://127.0.0.1:44667/continue [200 OK, 3.28 KB, 3 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+
+Root 1ebe0c081b96610243fdcf50
+
+  POST http://127.0.0.1:44667/v0/reviews [303 See Other, 378 B, 2 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root f069736a277f2af52c363c9c
+
+  GET http://127.0.0.1:44667/review [200 OK, 2.36 KB, 2 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  CSRF form present
+  Pass  owned review present
+  Pass  request expectation
+
+Root ff1e942564b6bf0b06feff8d
+
+  POST http://127.0.0.1:44667/v0/submissions [303 See Other, 379 B, 1 ms]
+  Pass  status 303
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+
+Root 6b8055ff528701ad931fa6d1
+
+  GET http://127.0.0.1:44667/outcome [200 OK, 2.18 KB, 1 ms]
+  Pass  status 200
+  Pass  private cache policy
+  Pass  no referrer leakage
+  Pass  no framing
+  Pass  request saved only
+  Pass  not booked
+
+REDACTED_DEMO_SECRET------------------------
+|                         |          executed |            failed |
+--------------------------+-------------------+--------------------
+|              iterations |                 1 |                 0 |
+--------------------------+-------------------+--------------------
+|                requests |                21 |                 0 |
+--------------------------+-------------------+--------------------
+|            test-scripts |                21 |                 0 |
+--------------------------+-------------------+--------------------
+|      prerequest-scripts |                21 |                 0 |
+--------------------------+-------------------+--------------------
+|              assertions |               109 |                 0 |
+REDACTED_DEMO_SECRET------------------------
+| total run duration: 1324 ms                                     |
+REDACTED_DEMO_SECRET------------------------
+| total data received: 23.17 KB (approx)                          |
+REDACTED_DEMO_SECRET------------------------
+| average response time: 3 ms [min: 1 ms, max: 17 ms, s.d.: 3 ms] |
+REDACTED_DEMO_SECRET------------------------

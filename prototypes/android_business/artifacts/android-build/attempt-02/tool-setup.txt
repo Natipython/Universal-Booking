@@ -1,0 +1,67 @@
+{
+  "status": "PASS_REQUIRED_TOOL_SETUP",
+  "checksPass": true,
+  "java": 0,
+  "sdkmanager": 0,
+  "packages": [
+    {
+      "path": "platform-tools",
+      "installed": true,
+      "properties": {
+        "Pkg.UserSrc": "false",
+        "Pkg.Revision": "37.0.1"
+      },
+      "expected": {},
+      "versionMatches": true
+    },
+    {
+      "path": "platforms/android-36",
+      "installed": true,
+      "properties": {
+        "Pkg.Desc": "Android SDK Platform 16",
+        "Pkg.UserSrc": "false",
+        "Platform.Version": "16",
+        "Platform.CodeName": "",
+        "Pkg.Revision": "2",
+        "AndroidVersion.ApiLevel": "36",
+        "AndroidVersion.ExtensionLevel": "17",
+        "AndroidVersion.IsBaseSdk": "true",
+        "Layoutlib.Api": "15",
+        "Layoutlib.Revision": "1",
+        "Platform.MinToolsRev": "22"
+      },
+      "expected": {
+        "AndroidVersion.ApiLevel": "36"
+      },
+      "versionMatches": true
+    },
+    {
+      "path": "build-tools/36.0.0",
+      "installed": true,
+      "properties": {
+        "Pkg.UserSrc": "false",
+        "Pkg.Revision": "36.0.0"
+      },
+      "expected": {
+        "Pkg.Revision": "36.0.0"
+      },
+      "versionMatches": true
+    },
+    {
+      "path": "ndk/28.2.13676358",
+      "installed": true,
+      "properties": {
+        "Pkg.Desc": "Android NDK",
+        "Pkg.Revision": "28.2.13676358",
+        "Pkg.BaseRevision": "28.2.13676358",
+        "Pkg.ReleaseName": "r28c"
+      },
+      "expected": {
+        "Pkg.Revision": "28.2.13676358"
+      },
+      "versionMatches": true
+    }
+  ],
+  "apkPresent": false,
+  "receipt": "prototypes/android_business/artifacts/android-build/setup-receipt.json"
+}

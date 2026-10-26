@@ -1,0 +1,22 @@
+flowchart LR
+    Provider[Official provider API / webhook]
+    Ingress[Provider-specific verified ingress]
+    Conn[Connection and capability registry]
+    Receipt[Provider event receipt / dedup]
+    Adapter[Versioned anti-corruption adapter]
+    Conv[Conversation & Inbox]
+    Outbox[Outbound message outbox]
+    Sender[Provider-specific sender]
+    Ops[Integration operations queue]
+
+    Provider --> Ingress
+    Ingress --> Conn
+    Ingress --> Receipt
+    Receipt --> Adapter
+    Adapter --> Conv
+    Conv --> Outbox
+    Outbox --> Sender
+    Sender --> Provider
+    Ingress --> Ops
+    Sender --> Ops
+    Conn --> Ops

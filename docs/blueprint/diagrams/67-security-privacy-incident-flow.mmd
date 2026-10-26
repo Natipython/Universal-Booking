@@ -1,0 +1,13 @@
+flowchart TD
+    Signal[Security / privacy signal] --> Restrict[Restricted case, roles, severity]
+    Restrict --> Preserve[Preserve scoped evidence and chain of custody]
+    Preserve --> Contain[Stop access, exfiltration or unsafe processing]
+    Contain --> Assess[Data, people, tenants, roles, countries, harm]
+    Assess --> Legal{Notification / merchant / regulator duties?}
+    Legal --> Notify[Approved accurate notice and deadline tracking]
+    Assess --> Eradicate[Close root and adjacent paths; rotate trust]
+    Eradicate --> Recover[Clean restore / correction / tenant and provider validation]
+    Recover --> Monitor[Heightened monitoring and user support]
+    Notify --> Monitor
+    Monitor --> Learn[Controls, tests, risk, rights and follow-up]
+

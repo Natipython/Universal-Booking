@@ -1,0 +1,17 @@
+flowchart LR
+    U[Customers and merchant staff] --> C[Untrusted Android, web and future desktop clients]
+    C --> E[Public edge: TLS, rate, schema and abuse controls]
+    E --> A[Authenticated API and domain authorization]
+    A --> D[(Tenant-qualified PostgreSQL)]
+    A --> O[(Private object storage)]
+    A --> Q[Durable queues and workers]
+    Q --> P[External messaging, payment, call and notification providers]
+    S[Ubi workforce] --> J[Case + step-up + scoped JIT access]
+    J --> A
+    B[CI/CD and cloud control plane] --> A
+    B --> D
+    K[Secret manager and KMS] --> A
+    K --> Q
+    D --> R[Isolated backup and recovery boundary]
+    O --> R
+    P -->|Authenticated, deduplicated webhooks| E

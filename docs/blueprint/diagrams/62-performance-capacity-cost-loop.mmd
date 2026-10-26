@@ -1,0 +1,12 @@
+flowchart LR
+    U[User task on D1 / W1 / W2] --> X[End-to-end telemetry]
+    X --> B[Performance and correctness budgets]
+    B --> L[Load, capacity and saturation model]
+    L --> C[Vendor + infrastructure + human unit cost]
+    C --> D{Within UX, safety and business envelope?}
+    D -- No --> O[Profile and optimize highest causal bottleneck]
+    O --> X
+    D -- Yes --> F[Forecast, release and monitor]
+    F --> P[Pilot evidence replaces assumptions]
+    P --> B
+

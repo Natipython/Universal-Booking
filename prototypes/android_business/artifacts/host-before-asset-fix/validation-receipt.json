@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-11T13:36:29.127Z",
+  "status": "PASS",
+  "scope": "Synthetic V0 local SQLite/domain/UI tests on Linux Flutter host",
+  "sourceDigest": "6284f3222da750236aaca55095f3692dc359b616a9f784ff8c5359cda41e5c93",
+  "sourcesChangedDuringRun": false,
+  "supportedBaseline": {
+    "android": "11+",
+    "minSdk": 30,
+    "ramGb": 4,
+    "configurationChecked": true,
+    "ramEnforcedAtRuntime": false,
+    "physicalDeviceVerified": false
+  },
+  "toolchain": {
+    "frameworkVersion": "3.47.1",
+    "channel": "stable",
+    "repositoryUrl": "https://github.com/flutter/flutter.git",
+    "frameworkRevision": "6655482ec06e547f90abf8ae7590466f4415978d",
+    "frameworkCommitDate": "2026-08-19 10:07:23 -0700",
+    "engineRevision": "5d531788691ec3404cac0cee66ead4007b177363",
+    "engineCommitDate": "2026-08-18 23:36:01.000Z",
+    "engineContentHash": "11d79658c444477b06513d32b52c8c4ccb7276b0",
+    "engineBuildDate": "2026-08-19 06:19:20.672",
+    "dartSdkVersion": "3.13.1",
+    "devToolsVersion": "2.60.0",
+    "flutterVersion": "3.47.1",
+    "flutterRoot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/flutter"
+  },
+  "analyzerExitCode": 0,
+  "testExitCode": 0,
+  "testsRun": 26,
+  "passed": 26,
+  "tests": [
+    {
+      "name": "fixtures are explicitly synthetic, two tenants, two operations in one tenant",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "atomic local save produces pending booking, command and history; never confirmed",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "same command and input return one logical item",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "same command with changed input fails without rewriting old intent",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "outbox insert failure rolls back booking and audit; draft remains",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "local overlap rejects without losing draft; adjacent interval succeeds",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "concurrent local contenders serialize and create one pending item",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "tenant scope prevents reads, history and changes of another tenant item",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "operation scope is independent inside the same organization",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "scoped composite FK refuses a cross-operation service",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "draft persists across close/reopen, scoped to one operation",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "simulated conflict retains details and is idempotent",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "local revision preserves command payload/history and one booking ID",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "failed revision keeps the old schedule; stale revision is rejected",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "cancellation retains history and removes pending work; cannot be resurrected",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "invalid scope, real-looking label and closing-hours overflow cannot save",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "exact money and fixed Ethiopia prototype timezone boundaries",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "customer-safe demo boundary and working manual save/details path",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "double tap saves one logical local intent",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "failed transaction keeps review/input and never shows a saved item",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "simulated conflict is explicit and retains saved details",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "committed SQLite item survives child-process SIGKILL without graceful close",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "switching demo tenant shows only that tenant schedule",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "home and form remain operable at 200 percent font scale",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "primary save action has a labelled minimum touch target",
+      "result": "success",
+      "skipped": false
+    },
+    {
+      "name": "capture actual Flutter home/review rendering and verify palette pairs",
+      "result": "success",
+      "skipped": false
+    }
+  ],
+  "notVerified": [
+    "APK build or Android native SQLite adapter",
+    "Physical-device startup/frames/battery/network",
+    "Actual Android process-death/background/low-storage behavior",
+    "Real auth/server sync or Go/PostgreSQL integrity",
+    "Field comprehension, TalkBack, Amharic or Ethiopian-calendar entry",
+    "Legal/provider/production readiness"
+  ]
+}

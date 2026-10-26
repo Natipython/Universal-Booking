@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-15T06:07:14.980Z",
+  "manufacturer": "samsung",
+  "model": "SM-G975W",
+  "androidVersion": "12",
+  "api": 31,
+  "abis": "arm64-v8a,armeabi-v7a,armeabi",
+  "memory": [
+    "MemTotal:        7640540 kB",
+    "MemAvailable:    2454376 kB"
+  ],
+  "dataStorage": "Filesystem       1K-blocks     Used Available Use% Mounted on\n/dev/block/sda31 114285036 72269784  41884180  64% /data/user/0",
+  "screenSize": "Physical size: 1440x3040",
+  "density": "Physical density: 420\nOverride density: 560",
+  "ramNote": "MemTotal is OS-usable memory, not an independently verified physical-RAM specification",
+  "serialRetained": false,
+  "permissionsAutoGranted": false
+}

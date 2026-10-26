@@ -1,0 +1,16 @@
+flowchart LR
+    P[Customer, staff or representative] --> N[Layered notice: purpose, business, required or optional]
+    N --> C{Required for approved service or separate choice?}
+    C -->|Required and lawful| A[Collect minimum necessary data]
+    C -->|Optional consent/choice| O{Clear affirmative choice?}
+    O -->|No| X[Do not collect or enable]
+    O -->|Yes| A
+    A --> D[(Authoritative purpose-bound owner data)]
+    D --> M[Authorized merchant workflow]
+    D --> S[Approved providers/subprocessors]
+    D --> R[Minimized projections, devices and telemetry]
+    P --> Q[Access, correct, export, restrict, object or delete request]
+    Q --> V[Verify identity/authority and responsibility]
+    V --> T[Owner and provider tasks with deadlines]
+    T --> Z[Outcome, redress and minimal completion evidence]
+    O -->|Withdrawal later| T

@@ -1,0 +1,15 @@
+flowchart TD
+    Failure[Failure, corruption or exercise] --> Protect[Stop unsafe writes; protect evidence, backups and clean identity]
+    Protect --> Assess{HA fault, logical corruption or compromise?}
+    Assess -->|Healthy standby| Failover[Fail over and fence old writer]
+    Assess -->|Corruption/outage| Restore[Isolated point-in-time restore]
+    Assess -->|Compromise| Clean[Security containment and clean control plane]
+    Clean --> Restore
+    Restore --> Validate[Schema, constraints, RLS, keys, objects, audit, deletion/hold]
+    Failover --> Validate
+    Validate --> Reconcile[Devices, manual sheets, providers and unknown outcomes]
+    Reconcile --> Cutover[Phased reads/writes and monitored cutover]
+    Cutover --> Verify{Task, integrity, RPO/RTO and backlog acceptable?}
+    Verify -- No --> Assess
+    Verify -- Yes --> Close[Merchant communication, cleanup, exercise/incident learning]
+

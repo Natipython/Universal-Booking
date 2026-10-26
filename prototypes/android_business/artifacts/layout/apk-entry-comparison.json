@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-15T06:44:09.663Z",
+  "scope": "Read-only APK ZIP central-directory comparison, not a speed or reproducibility benchmark",
+  "oldPath": "prototypes/android_business/artifacts/checkpoints/2026-10-15-pre-layout/inputs/prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk",
+  "newPath": "prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk",
+  "oldEntryCount": 154,
+  "newEntryCount": 154,
+  "removed": [],
+  "added": [],
+  "changed": [
+    {
+      "name": "AndroidManifest.xml",
+      "compressedDelta": 0,
+      "uncompressedDelta": 0
+    },
+    {
+      "name": "assets/flutter_assets/kernel_blob.bin",
+      "compressedDelta": 512,
+      "uncompressedDelta": 2520
+    }
+  ]
+}

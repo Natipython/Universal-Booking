@@ -1,0 +1,439 @@
+{
+  "checkedAt": "2026-10-11T14:38:26.712Z",
+  "status": "PASS_LOCAL_DEBUG_APK_BUILD",
+  "scope": "Synthetic Ubi Business V0 debug APK compilation and static artifact inspection only",
+  "sourceDigest": "e690d9e34e3a73539af5c642d82dbf78d6d7040fc18023981cf238a0b8194741",
+  "sources": [
+    {
+      "path": ".tooling/android-toolchain-pins.json",
+      "sha256": "ea619f2c3cf8301e4d9b42ef79b91cc36d4d7b7db03afb782cf7b7e0eb3ebce3"
+    },
+    {
+      "path": ".tooling/build-android-v0.mjs",
+      "sha256": "ec6a7e92e94497ac38adcd44b7451d72e3a628d249789bb5b802377291f632da"
+    },
+    {
+      "path": ".tooling/gradle-home/gradle.properties",
+      "sha256": "eeebd68a7f8d52caef098cbc59427e1b475958995aa02295f4516e255215821d"
+    },
+    {
+      "path": ".tooling/inspect-android-badging-v0.mjs",
+      "sha256": "4a4f5afa70f9d898054b8d3c409565a35437f2b7f0d58272086ad9122fcf5f2c"
+    },
+    {
+      "path": ".tooling/sync-android-assets-v0.mjs",
+      "sha256": "ee4599a2fc03993be8145de2c2e51119dcb12823dda58cff3c0eb734ce013083"
+    },
+    {
+      "path": ".tooling/verify-android-assets-v0.mjs",
+      "sha256": "b69f29a39735597bd8f7d0d4b3d43513eaf1779bef296f44dbdf84cb3658b043"
+    },
+    {
+      "path": ".tooling/verify-android-setup-v0.mjs",
+      "sha256": "c31783de138e39d0405d39ef859795e90f1c735c2a54fd2f8b3578ff5404f854"
+    },
+    {
+      "path": "design/tokens.json",
+      "sha256": "52dc1ea4c91d9e60acf122e01afa953d52904d0324135355d42cf23b482e9746"
+    },
+    {
+      "path": "prototypes/android_business/.flutter-plugins-dependencies",
+      "sha256": "0558b3c31c8547d308ff42b1e37f7f095f13491dcddfad834a1df168edfb5682"
+    },
+    {
+      "path": "prototypes/android_business/android/.gitignore",
+      "sha256": "b027c9de1011765c015e5819bf857c0d75bfcd0886fb01721c091159012e50f1"
+    },
+    {
+      "path": "prototypes/android_business/android/app/build.gradle.kts",
+      "sha256": "6e7e568bac83099c58da9b2691c8f43fc0be0e5bc227d535e4d275f961305e68"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "30b0832ed8b92dfbd6ae2abfa939ccf26333d37600056b1572bd4a397a18a74b"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/AndroidManifest.xml",
+      "sha256": "4f048f54851461edf9cc200c05f941b6deee3dcb43e8ae93ceb13a28df06b5d4"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "sha256": "54e7ac6710031492dbca3138204d386adc72318a61fbb2388d814f8031dc47e1"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/kotlin/dev/ubi/validation/ubi_business_v0/MainActivity.kt",
+      "sha256": "36cef79543a6609a4733a8f208bc95e51ccbbbe48d678a484a52b27604338744"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/values-night/styles.xml",
+      "sha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/main/res/values/styles.xml",
+      "sha256": "937d7c82f539c72eb94fd3a3773f29b3d3fef1997213c92cb632298cedf4bda9"
+    },
+    {
+      "path": "prototypes/android_business/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "30b0832ed8b92dfbd6ae2abfa939ccf26333d37600056b1572bd4a397a18a74b"
+    },
+    {
+      "path": "prototypes/android_business/android/build.gradle.kts",
+      "sha256": "6a26dba2cb8dfba1e74f540b0d17a89d96c1301d3c3bfda14348bed257fddcba"
+    },
+    {
+      "path": "prototypes/android_business/android/gradle.properties",
+      "sha256": "0f82b18017fba6bb5ce3aa4b2d1a00c9382fc8aae7b1d9326e44b18abd66d80b"
+    },
+    {
+      "path": "prototypes/android_business/android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13"
+    },
+    {
+      "path": "prototypes/android_business/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "d4310ac50d8d4cb7a47a6aca5a531b677f128ecbd787c2db288263ddbe13a99f"
+    },
+    {
+      "path": "prototypes/android_business/android/gradlew",
+      "sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b"
+    },
+    {
+      "path": "prototypes/android_business/android/gradlew.bat",
+      "sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62"
+    },
+    {
+      "path": "prototypes/android_business/android/settings.gradle.kts",
+      "sha256": "016759283e88ade6eba92910583feeef88b962839b957aa414296afd2952d122"
+    },
+    {
+      "path": "prototypes/android_business/android/ubi_business_v0_android.iml",
+      "sha256": "90d961bc4ccb4b0ae3f75ce495c273f08745a55c50bd213e259723fc341d0193"
+    },
+    {
+      "path": "prototypes/android_business/assets/README.md",
+      "sha256": "71684804ddf1760e6fb536268c97cb4533477cf2aebfe500b20582010feb352a"
+    },
+    {
+      "path": "prototypes/android_business/assets/demo/booking-v0.json",
+      "sha256": "c5a6542e8030d8e4becf9498ce58288c264ba0c62c3ed146c9721fa4223549de"
+    },
+    {
+      "path": "prototypes/android_business/assets/demo/tokens.json",
+      "sha256": "52dc1ea4c91d9e60acf122e01afa953d52904d0324135355d42cf23b482e9746"
+    },
+    {
+      "path": "prototypes/android_business/lib/app/demo_assets.dart",
+      "sha256": "3f30f2c62b6fdb152de186e97cb4482c05908b592b7cd5489905bbc5701dd758"
+    },
+    {
+      "path": "prototypes/android_business/lib/app/theme.dart",
+      "sha256": "3a7055ab967355e308c9280208eecbb6e86949d53559d6469cf91459014a8cc7"
+    },
+    {
+      "path": "prototypes/android_business/lib/features/bookings/domain/booking.dart",
+      "sha256": "0750d17d5f4df4a5296a0aad1555690d507ed41a8fa9c92c013a71cbf7e20e47"
+    },
+    {
+      "path": "prototypes/android_business/lib/features/bookings/presentation/booking_details.dart",
+      "sha256": "f22c98317977cf9b6d6436af07f76a7852206d89c2fc7e3ddd9460531e0c469b"
+    },
+    {
+      "path": "prototypes/android_business/lib/features/bookings/presentation/booking_form.dart",
+      "sha256": "48632f1bdedb6443b9e8ef7b92145ab4f90d9185ff22ccaac380795008d7b24b"
+    },
+    {
+      "path": "prototypes/android_business/lib/features/bookings/presentation/business_home.dart",
+      "sha256": "809c3ce9be6b0ddfd40a29c3e80554ee52b582530e20dd4cbf1771507e4caedd"
+    },
+    {
+      "path": "prototypes/android_business/lib/local/demo_repository.dart",
+      "sha256": "adab2e4e65c1049336c567de020a41ab7fd3aa9869f4d546be5fbe4d697f409f"
+    },
+    {
+      "path": "prototypes/android_business/lib/main.dart",
+      "sha256": "9be6bca75289e22070e9d3149ccc1514ea77968650752f5eeb0e4e37f665556e"
+    },
+    {
+      "path": "prototypes/android_business/pubspec.lock",
+      "sha256": "309e617733fa67efbdcd15b8bb96dd3a4f16abacd454044c8ee6515e9a618010"
+    },
+    {
+      "path": "prototypes/android_business/pubspec.yaml",
+      "sha256": "d9fde4d4f1f6c3230ab93311eb2e12e012ec369322de9698206a7c83db36d59d"
+    },
+    {
+      "path": "prototypes/fixtures/booking-v0.json",
+      "sha256": "c5a6542e8030d8e4becf9498ce58288c264ba0c62c3ed146c9721fa4223549de"
+    }
+  ],
+  "steps": [
+    {
+      "name": "tool-setup",
+      "command": "../../../../../usr/bin/node",
+      "args": [
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/verify-android-setup-v0.mjs"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 4198
+    },
+    {
+      "name": "java-version",
+      "command": ".tooling/jdk-17/bin/java",
+      "args": [
+        "-version"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 62
+    },
+    {
+      "name": "gradle-version",
+      "command": "prototypes/android_business/android/gradlew",
+      "args": [
+        "--version"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 2665
+    },
+    {
+      "name": "flutter-version",
+      "command": ".tooling/flutter/bin/flutter",
+      "args": [
+        "--suppress-analytics",
+        "--no-version-check",
+        "--version",
+        "--machine"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 225
+    },
+    {
+      "name": "sdk-packages",
+      "command": ".tooling/android-sdk/cmdline-tools/latest/bin/sdkmanager",
+      "args": [
+        "--sdk_root=/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/android-sdk",
+        "--list_installed"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 1630
+    },
+    {
+      "name": "locked-dependencies",
+      "command": ".tooling/flutter/bin/flutter",
+      "args": [
+        "--suppress-analytics",
+        "--no-version-check",
+        "pub",
+        "get",
+        "--enforce-lockfile"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 1111
+    },
+    {
+      "name": "build-debug",
+      "command": ".tooling/flutter/bin/flutter",
+      "args": [
+        "--suppress-analytics",
+        "--no-version-check",
+        "build",
+        "apk",
+        "--debug",
+        "--no-pub"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 89826
+    },
+    {
+      "name": "apk-badging",
+      "command": ".tooling/android-sdk/build-tools/36.0.0/aapt2",
+      "args": [
+        "dump",
+        "badging",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 41
+    },
+    {
+      "name": "apk-manifest",
+      "command": ".tooling/jdk-17/bin/java",
+      "args": [
+        "-Dcom.android.sdklib.toolsdir=/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/android-sdk/cmdline-tools/latest",
+        "-classpath",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/android-sdk/cmdline-tools/latest/lib/apkanalyzer-classpath.jar",
+        "com.android.tools.apk.analyzer.ApkAnalyzerCli",
+        "manifest",
+        "print",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 2817
+    },
+    {
+      "name": "apk-signature",
+      "command": ".tooling/android-sdk/build-tools/36.0.0/apksigner",
+      "args": [
+        "verify",
+        "--verbose",
+        "--print-certs",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 1420
+    },
+    {
+      "name": "apk-dex",
+      "command": ".tooling/jdk-17/bin/java",
+      "args": [
+        "-Dcom.android.sdklib.toolsdir=/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/android-sdk/cmdline-tools/latest",
+        "-classpath",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/android-sdk/cmdline-tools/latest/lib/apkanalyzer-classpath.jar",
+        "com.android.tools.apk.analyzer.ApkAnalyzerCli",
+        "dex",
+        "packages",
+        "--defined-only",
+        "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 4053
+    }
+  ],
+  "pins": {
+    "verifiedOn": "2026-10-11",
+    "sdkAuthorization": {
+      "scope": "Explicit founder acceptance of linked Android SDK agreement and local tool installation/synthetic APK build",
+      "agreement": "https://developer.android.com/studio",
+      "agreementDate": "2026-04-28",
+      "additionalAgreementsAuthorized": false,
+      "stablePackageAgreement": {
+        "id": "android-sdk-license",
+        "date": "2019-01-16",
+        "status": "EXPLICITLY_AUTHORIZED",
+        "authorizedOn": "2026-10-11",
+        "authorization": "Yes, accept that stable SDK agreement and continue the local test build.",
+        "officialMetadata": "https://dl.google.com/android/repository/repository2-3.xml",
+        "reviewText": ".tooling/android-downloads/android-sdk-license-2019.txt",
+        "reviewTextSha256": "1f8729233617b193fd619213792ae16a41b95d2bbbf525dfe66998252ba68b16"
+      },
+      "telemetryAuthorized": false,
+      "publicationOrDeviceInstallationAuthorized": false
+    },
+    "jdk": {
+      "release": "jdk-17.0.20.1+1",
+      "archive": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+      "sha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+      "metadata": "https://api.adoptium.net/v3/assets/latest/17/hotspot?architecture=x64&image_type=jdk&os=linux&vendor=eclipse"
+    },
+    "commandLineTools": {
+      "archive": "commandlinetools-linux-15859902_latest.zip",
+      "url": "https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip",
+      "sha256": "4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583",
+      "metadata": "https://developer.android.com/studio"
+    },
+    "gradle": {
+      "version": "9.3.1",
+      "distributionSha256": "17f277867f6914d61b1aa02efab1ba7bb439ad652ca485cd8ca6842fccec6e43",
+      "wrapperSha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+      "metadata": "https://gradle.org/release-checksums/"
+    },
+    "requestedSdkPackages": [
+      "platform-tools",
+      "platforms;android-36",
+      "build-tools;36.0.0",
+      "ndk;28.2.13676358"
+    ]
+  },
+  "javaVersion": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)\n",
+  "sdkPackages": "Installed packages:\n  Path                 | Version       | Description                      | Location            \n  -------              | -------       | -------                          | -------             \n  build-tools;36.0.0   | 36.0.0        | Android SDK Build-Tools 36       | build-tools/36.0.0  \n  ndk;28.2.13676358    | 28.2.13676358 | NDK (Side by side) 28.2.13676358 | ndk/28.2.13676358   \n  platform-tools       | 37.0.1        | Android SDK Platform-Tools       | platform-tools      \n  platforms;android-36 | 2             | Android SDK Platform 36          | platforms/android-36\n\nWARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Use Android CLI instead.\nThe 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.\nTo learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)\n\n",
+  "apk": {
+    "path": "prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk",
+    "bytes": 175588986,
+    "sha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4"
+  },
+  "manifestSummary": {
+    "package": "package: name='dev.ubi.validation.ubi_business_v0' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+    "packageName": "dev.ubi.validation.ubi_business_v0",
+    "minSdk": 30,
+    "targetSdk": 36,
+    "nativeCode": "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86_64'",
+    "debuggable": true,
+    "permissions": [
+      "android.permission.INTERNET",
+      "dev.ubi.validation.ubi_business_v0.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "allowBackup": false
+  },
+  "generatedDemoAssets": [
+    {
+      "source": "prototypes/fixtures/booking-v0.json",
+      "target": "prototypes/android_business/assets/demo/booking-v0.json",
+      "key": "assets/demo/booking-v0.json",
+      "sha256": "c5a6542e8030d8e4becf9498ce58288c264ba0c62c3ed146c9721fa4223549de"
+    },
+    {
+      "source": "design/tokens.json",
+      "target": "prototypes/android_business/assets/demo/tokens.json",
+      "key": "assets/demo/tokens.json",
+      "sha256": "52dc1ea4c91d9e60acf122e01afa953d52904d0324135355d42cf23b482e9746"
+    }
+  ],
+  "bundledDemoAssets": [
+    {
+      "source": "prototypes/fixtures/booking-v0.json",
+      "key": "assets/demo/booking-v0.json",
+      "apkEntry": "assets/flutter_assets/assets/demo/booking-v0.json",
+      "bytes": 1568,
+      "sha256": "c5a6542e8030d8e4becf9498ce58288c264ba0c62c3ed146c9721fa4223549de"
+    },
+    {
+      "source": "design/tokens.json",
+      "key": "assets/demo/tokens.json",
+      "apkEntry": "assets/flutter_assets/assets/demo/tokens.json",
+      "bytes": 2455,
+      "sha256": "52dc1ea4c91d9e60acf122e01afa953d52904d0324135355d42cf23b482e9746"
+    }
+  ],
+  "signaturePublicIdentity": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): false\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: C=US, O=Android, CN=Android Debug\nSigner #1 certificate SHA-256 digest: 774e2a1ba51df8b9c53f0ae7978cfbc04a22507c31eeb83ae5b0f51a689c1591\nSigner #1 certificate SHA-1 digest: b35bc252116def4a0f0a8c541d50107f2d0f1b87\nSigner #1 certificate MD5 digest: b9e1c7474bfadcc32b3c50e62a1c1d71\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 2048\nSigner #1 public key SHA-256 digest: 5182d881d09af031213ac2b6f9efcfa0bf91aa0da1facd8a0121acd92f6584fb\nSigner #1 public key SHA-1 digest: d26f3aa37799e3dd8ab2ceb291b23807092e77c6\nSigner #1 public key MD5 digest: 0d4eb85da94fdf349c774429b9597688\n",
+  "nativeSqlitePluginIncluded": true,
+  "nativeSqliteExecuted": false,
+  "failure": null,
+  "productionSigned": false,
+  "deviceInstalled": false,
+  "performanceMeasured": false,
+  "notVerified": [
+    "Physical Android 11+/4 GB or newer device behavior",
+    "Native SQLite execution, Android process death and background/low-storage recovery",
+    "Startup, frames, battery, accessibility, localization and field comprehension",
+    "Real identity, Android/server integration, payments or social connectors",
+    "All 28 full acceptance scenarios and G7/G8/G9",
+    "Production signing, deployment or launch approval"
+  ]
+}

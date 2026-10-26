@@ -1,0 +1,1660 @@
+[
+  {
+    "checkedAt": "2026-10-15T06:07:14.983Z",
+    "action": "info",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "manufacturer": "samsung",
+    "androidVersion": "12",
+    "api": 31,
+    "abis": "arm64-v8a,armeabi-v7a,armeabi",
+    "memory": [
+      "MemTotal:        7640540 kB",
+      "MemAvailable:    2454376 kB"
+    ],
+    "dataStorage": "Filesystem       1K-blocks     Used Available Use% Mounted on\n/dev/block/sda31 114285036 72269784  41884180  64% /data/user/0",
+    "screenSize": "Physical size: 1440x3040",
+    "density": "Physical density: 420\nOverride density: 560",
+    "ramNote": "MemTotal is OS-usable memory, not an independently verified physical-RAM specification",
+    "serialRetained": false,
+    "permissionsAutoGranted": false
+  },
+  {
+    "checkedAt": "2026-10-15T06:07:20.119Z",
+    "action": "launch",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": "Starting: Intent { cmp=dev.ubi.validation.ubi_business_v0/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.ubi.validation.ubi_business_v0/.MainActivity\nTotalTime: 4005\nWaitTime: 4016\nComplete",
+    "note": "Launch diagnostic only; not a release/profile startup benchmark"
+  },
+  {
+    "checkedAt": "2026-10-15T06:07:53.772Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-first-launch-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:07:55.027Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-empty-store-synthetic.sqlite",
+    "sha256": "553626070520f215f6d50419ad3b4edc21cd4e2e4cdbe4e447dcd39b5c3c4550",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [],
+    "outbox": [],
+    "audit": [],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:07:56.639Z",
+    "action": "logs",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "path": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-first-launch-ubi-log.txt",
+    "scope": "Only the current Ubi PID; no global log dump",
+    "suspectedErrors": []
+  },
+  {
+    "checkedAt": "2026-10-15T06:08:24.440Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:08:26.512Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/02-add-form-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:08:59.878Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:09:01.718Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/03-review-before-save-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:09:02.811Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/03-review-no-booking-synthetic.sqlite",
+    "sha256": "553626070520f215f6d50419ad3b4edc21cd4e2e4cdbe4e447dcd39b5c3c4550",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [],
+    "outbox": [],
+    "audit": [],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:09:51.035Z",
+    "action": "doubletap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": "",
+    "note": "Two consecutive device input commands; not a measured inter-tap interval or retry stress test"
+  },
+  {
+    "checkedAt": "2026-10-15T06:09:52.721Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/04-after-save-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:09:53.923Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/04-saved-once-synthetic.sqlite",
+    "sha256": "55f03d66c19ac878f52a69214ad4c9141f238f7f6143ce00e5a9c7b628ecf3a5",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894687200000,
+        "end_ms": 1894690800000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 1
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      }
+    ],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:14.449Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "340",
+      "2470"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:16.285Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/05-saved-details-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:31.039Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1810"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:32.836Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-simulated-conflict-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:34.076Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-conflict-retained-synthetic.sqlite",
+    "sha256": "50acc2d7698479fa28c4474c11c39d516489a0243147ab5fd71e0fce0dcd279e",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894687200000,
+        "end_ms": 1894690800000,
+        "price_minor": 200000,
+        "status": "simulatedConflict",
+        "revision": 2
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      }
+    ],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:10:59.433Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1642"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:00.968Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "360",
+      "1405"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:02.877Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/07-change-hour-menu-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:19.571Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "150",
+      "1532"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:20.953Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:22.737Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/08-revised-review-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:38.261Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:40.128Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/09-revised-details-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:41.511Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/09-revised-booking-synthetic.sqlite",
+    "sha256": "29f209e6a9452bda84b392bdc17b87b8969decb4434f4d28f009bc31b794ae42",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 3
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      }
+    ],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:54.080Z",
+    "action": "back",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:11:56.625Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:02.733Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1775"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:04.880Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/10-draft-customer-menu-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:31.641Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "400",
+      "1945"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:33.287Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "360",
+      "1405"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:34.747Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "150",
+      "1532"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:36.512Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/11-unsaved-draft-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:37.721Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/11-before-force-stop-synthetic.sqlite",
+    "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 3
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:50.352Z",
+    "action": "force-stop-once",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": "",
+    "beforePid": "21724",
+    "afterPid": null,
+    "processStopped": true,
+    "dataCleared": false,
+    "note": "Explicitly authorized once. Force-stop is not a low-memory kill, reboot or power-loss test."
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:53.942Z",
+    "action": "launch",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": "Starting: Intent { cmp=dev.ubi.validation.ubi_business_v0/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.ubi.validation.ubi_business_v0/.MainActivity\nTotalTime: 2454\nWaitTime: 2474\nComplete",
+    "note": "Launch diagnostic only; not a release/profile startup benchmark"
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:55.250Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/12-after-force-stop-synthetic.sqlite",
+    "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 3
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:57.125Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:12:58.927Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/12-recovered-draft-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:25.841Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:27.127Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:28.893Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-overlap-rejected-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:30.155Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-no-overlap-duplicate-synthetic.sqlite",
+    "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 3
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:50.547Z",
+    "action": "back",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:52.098Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "340",
+      "2470"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:53.330Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2035"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:13:55.216Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/14-cancellation-confirmation-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:11.362Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "560",
+      "1782"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:12.616Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/14-kept-item-synthetic.sqlite",
+    "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 3
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "simulatedConflict"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "pending"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:14.307Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2035"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:15.708Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "970",
+      "1782"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:17.928Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/15-cancelled-details-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:20.591Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/15-cancelled-history-retained-synthetic.sqlite",
+    "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "cancelled",
+        "revision": 4
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      },
+      {
+        "event_id": 4,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_cancelled"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:45.544Z",
+    "action": "back",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:46.973Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1200",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:14:48.983Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/16-scope-picker-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:14.149Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1350"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:15.729Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "240",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:17.107Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:19.196Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/17-events-no-foreign-draft-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:20.569Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/17-events-scope-synthetic.sqlite",
+    "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "cancelled",
+        "revision": 4
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      },
+      {
+        "event_id": 4,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_cancelled"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:33.710Z",
+    "action": "back",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:38.229Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1200",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:40.320Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1620"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:43.250Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "240",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:45.564Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:47.580Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/18-other-business-no-foreign-draft-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:55.393Z",
+    "action": "back",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:56.786Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1200",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:58.163Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "1080"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:15:59.693Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "240",
+      "2820"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:01.149Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "1080",
+      "2555"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:03.110Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/19-returned-own-draft-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:04.487Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/19-returned-scope-synthetic.sqlite",
+    "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "cancelled",
+        "revision": 4
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      },
+      {
+        "event_id": 4,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_cancelled"
+      }
+    ],
+    "drafts": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+      }
+    ],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:17.227Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:18.974Z",
+    "action": "tap",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "720",
+      "2815"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:20.541Z",
+    "action": "database",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-new-item-after-cancellation-synthetic.sqlite",
+    "sha256": "5c8d46c0a59bb835fbfda0318b7663f7e6715a204e9351f4bee979b3841af158",
+    "quickCheck": [
+      {
+        "quick_check": "ok"
+      }
+    ],
+    "bookings": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_e534da84679c5686f3597748728ec2e8",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 01",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "cancelled",
+        "revision": 4
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "id": "v0_61938851bf0a25ba2afba51be8352baa",
+        "service_id": "portrait",
+        "customer_label": "Demo Guest 02",
+        "source": "Call",
+        "start_ms": 1894690800000,
+        "end_ms": 1894694400000,
+        "price_minor": 200000,
+        "status": "pending",
+        "revision": 1
+      }
+    ],
+    "outbox": [
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_88cf856cdef8a20d6b21020ca3beeebf",
+        "booking_id": "v0_61938851bf0a25ba2afba51be8352baa",
+        "state": "pending"
+      },
+      {
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "state": "cancelled"
+      }
+    ],
+    "audit": [
+      {
+        "event_id": 1,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_saved"
+      },
+      {
+        "event_id": 2,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "simulated_conflict"
+      },
+      {
+        "event_id": 3,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_revised"
+      },
+      {
+        "event_id": 4,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+        "action": "local_intent_cancelled"
+      },
+      {
+        "event_id": 5,
+        "organization_id": "demo-org-a",
+        "operation_id": "studio",
+        "booking_id": "v0_61938851bf0a25ba2afba51be8352baa",
+        "action": "local_intent_saved"
+      }
+    ],
+    "drafts": [],
+    "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:22.899Z",
+    "action": "swipe",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "coordinates": [
+      "650",
+      "2500",
+      "650",
+      "1250",
+      "500"
+    ],
+    "output": ""
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:25.128Z",
+    "action": "snapshot",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "screenshot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-final-schedule-screen.png",
+    "focusedPackageCheckedBeforeAndAfter": true,
+    "note": "Full app-focused screen capture; status/navigation bars may contain generic system indicators"
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:26.872Z",
+    "action": "logs",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "path": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-final-ubi-log.txt",
+    "scope": "Only the current Ubi PID; no global log dump",
+    "suspectedErrors": []
+  },
+  {
+    "checkedAt": "2026-10-15T06:16:56.526Z",
+    "action": "verify-install",
+    "package": "dev.ubi.validation.ubi_business_v0",
+    "model": "SM-G975W",
+    "apkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "installedApkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+    "matchesLocalVerifiedArtifact": true,
+    "packageMetadata": [
+      "versionCode=1 minSdk=30 targetSdk=36",
+      "versionName=0.1.0",
+      "pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]"
+    ],
+    "installWasFresh": true,
+    "autoGrantedPermissions": false
+  }
+]

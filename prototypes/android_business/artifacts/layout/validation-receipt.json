@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-10-15T06:45:16.821Z",
+  "status": "FAIL",
+  "scope": "Offline cross-check of the Home action fix, 41 host tests and new static debug build; not a new phone run",
+  "checks": [
+    {
+      "name": "Original 82-file checkpoint and phone-tested APK are intact",
+      "result": "PASS"
+    },
+    {
+      "name": "The new regression really failed on the old overlapping layout",
+      "result": "FAIL",
+      "reason": "The expression evaluated to a falsy value:\n\n  assert.ok(red.some(event => event.type === 'error' &&\n"
+    },
+    {
+      "name": "Current host receipt passes all 41 tests with clean analyzer and unchanged covered sources",
+      "result": "PASS"
+    },
+    {
+      "name": "All 12 viewport/state checks and the labelled action/navigation check passed",
+      "result": "PASS"
+    },
+    {
+      "name": "Current APK is the separately inspected 0.1.1 (2) debug candidate",
+      "result": "PASS"
+    },
+    {
+      "name": "Only Home presentation and demo version changed among the prior covered build inputs",
+      "result": "PASS"
+    },
+    {
+      "name": "Phone session stays closed and native evidence still belongs only to the old APK",
+      "result": "PASS"
+    },
+    {
+      "name": "Six generated host renders exist as PNGs; not golden or native evidence",
+      "result": "PASS"
+    }
+  ],
+  "changedBuildInputs": [
+    "prototypes/android_business/lib/features/bookings/presentation/business_home.dart",
+    "prototypes/android_business/pubspec.yaml"
+  ],
+  "hostSourceDigest": "c22581d5b5fb416ba2d0eae665015542e3c6aec6d30632d162208b84e63d0d59",
+  "buildSourceDigest": "e1266da89a027297c3efa37c9deeffa35edabb383979fa4794fbc9889be13885",
+  "testedOldApkSha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4",
+  "candidateApk": {
+    "path": "prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk",
+    "bytes": 160357224,
+    "sha256": "5b963e8247a02bc1e7fbf02545d39baf84e23d106ce68a6b86ab1a357f50d7c1"
+  },
+  "evidenceFiles": [
+    {
+      "path": "prototypes/android_business/artifacts/validation-receipt.json",
+      "sha256": "b8717cc801adbb8f2678bdeb5b1d951517182ae0b1f8651e772d022fc1ecb7ab"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-build/build-receipt.json",
+      "sha256": "266378275b0ccb9229cddad3810d008f8dbec17ce1c8b661c9546c6731bbd1be"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/checkpoints/2026-10-15-pre-layout/checkpoint.json",
+      "sha256": "e259964e78e7d3bdb592772d0d63c1d2f35af35c3e9e564db24410ee269ed9b0"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/validation-receipt.json",
+      "sha256": "4e3525463932d6178df45412db3dbead478eb165a9682403339d95bc47e3f0ea"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/before-fix-events.jsonl",
+      "sha256": "dc14d7f0c7aa0a034beb2df74de607a56480fa1a229a005133fc4001201d266a"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/apk-entry-comparison.json",
+      "sha256": "f1041ec215d7bcb0cb181d6f68baa5c225453c6b33f585008d205a825dfe3260"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/tooling-tests.txt",
+      "sha256": "44e44cb3a40892a25d70a9aa5deb705a4cac6d65f466bb8bb33f6ed1148ef8bc"
+    },
+    {
+      "path": ".tooling/verify-android-layout-v0.mjs",
+      "sha256": "53af0d99d0d9bc4107e5e14e30306d24724e491effe282b706cbd6efbdc64d47"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/phone-sized-seeded.png",
+      "sha256": "3abb2f07a8ed7f5ebe0d4d1be90c72f9953d203da353acc2e13d64c0bd8009f8"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/portrait-seeded.png",
+      "sha256": "0862420beeedfe76e5451fcb23d1eb6f35299a98dbb3455b1e0317da9b7b28c0"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/small-portrait-seeded.png",
+      "sha256": "9f33443a4fd1abe550a25df022ca8f4b93ed012b4dfa9449901e6d98954de6ef"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/large-text-seeded.png",
+      "sha256": "9800e814a0d431a71936fc58983a6cfd1a046e8abb86f24fcde284d25fa384b4"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/landscape-seeded.png",
+      "sha256": "6f64deca2b901bee9b7a26b14e889bff95fb663669cb1e6f33b5561a43f2b8d7"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/layout/landscape-large-text-seeded.png",
+      "sha256": "ace28be1155227528043e68418ff4f4d982a70941d82cadd29a6cb10ef0cc051"
+    }
+  ],
+  "installedOnPhone": false,
+  "performanceMeasured": false,
+  "fullAcceptanceScenariosCompleted": 0,
+  "finding": {
+    "id": "NATIVE-UX-01",
+    "status": "FIXED_SOURCE_HOST_PENDING_NATIVE_RECHECK"
+  },
+  "limitations": [
+    "Synthetic safe-area/text-scale simulations, not actual Android accessibility or cutouts",
+    "PNG existence/hashes do not automatically judge visual quality; no independent human sign-off",
+    "Initial demo content still requires scrolling; production usability/comprehension is not validated",
+    "No new phone installation or permission, no minimum-device or release/profile speed measurements",
+    "WB-02/WB-05, all 28 full scenarios and G7/G8/G9 remain open"
+  ]
+}

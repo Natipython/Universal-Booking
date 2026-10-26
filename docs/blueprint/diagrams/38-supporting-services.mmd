@@ -1,0 +1,43 @@
+flowchart LR
+    Domains[Booking / Catalog / Conversation / Payment domains]
+    Outbox[Durable outbox and process managers]
+
+    subgraph Media[Media plane]
+        MediaAPI[Media metadata / upload API]
+        Object[(Private object storage)]
+        Processor[Scan / transform worker]
+        CDN[Controlled public/signed delivery]
+    end
+
+    subgraph Search[Search plane]
+        Projection[Authorized search projection]
+        DBSearch[(Database-native search first)]
+        SearchEngine[(Optional dedicated index later)]
+    end
+
+    subgraph Comms[Notification plane]
+        Intent[Notification intent / templates]
+        Delivery[Push / SMS / email adapters]
+        Providers[External delivery providers]
+    end
+
+    subgraph Calls[Future realtime call plane]
+        Signal[Authenticated signaling]
+        Relay[STUN/TURN/media provider or relay]
+        Quality[Quality / abuse operations]
+    end
+
+    Domains --> Outbox
+    Domains --> MediaAPI
+    MediaAPI --> Object
+    Object --> Processor
+    Processor --> CDN
+    Domains --> Projection
+    Projection --> DBSearch
+    Projection --> SearchEngine
+    Outbox --> Intent
+    Intent --> Delivery
+    Delivery --> Providers
+    Domains --> Signal
+    Signal --> Relay
+    Relay --> Quality

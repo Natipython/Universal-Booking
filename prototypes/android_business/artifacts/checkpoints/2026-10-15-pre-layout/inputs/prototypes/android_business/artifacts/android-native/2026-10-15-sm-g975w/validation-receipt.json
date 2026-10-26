@@ -1,0 +1,313 @@
+{
+  "checkedAt": "2026-10-15T06:22:52.887Z",
+  "status": "PASS_BOUNDED_NATIVE_SMOKE",
+  "scope": "Offline cross-check of one manually driven Android 12 physical-phone debug session; partial WB-02/EV-03/05 only",
+  "device": {
+    "checkedAt": "2026-10-15T06:07:14.980Z",
+    "manufacturer": "samsung",
+    "model": "SM-G975W",
+    "androidVersion": "12",
+    "api": 31,
+    "abis": "arm64-v8a,armeabi-v7a,armeabi",
+    "memory": [
+      "MemTotal:        7640540 kB",
+      "MemAvailable:    2454376 kB"
+    ],
+    "dataStorage": "Filesystem       1K-blocks     Used Available Use% Mounted on\n/dev/block/sda31 114285036 72269784  41884180  64% /data/user/0",
+    "screenSize": "Physical size: 1440x3040",
+    "density": "Physical density: 420\nOverride density: 560",
+    "ramNote": "MemTotal is OS-usable memory, not an independently verified physical-RAM specification",
+    "serialRetained": false,
+    "permissionsAutoGranted": false
+  },
+  "testedApk": {
+    "path": "prototypes/android_business/build/app/outputs/flutter-apk/app-debug.apk",
+    "bytes": 175588986,
+    "sha256": "d42e02e366b255213b54cb1866b9127f8a4171f8d09f3c48e19dcd95d47b07f4"
+  },
+  "buildSourceDigest": "e690d9e34e3a73539af5c642d82dbf78d6d7040fc18023981cf238a0b8194741",
+  "verificationSources": [
+    {
+      "path": ".tooling/android-device-v0.mjs",
+      "sha256": "1e8b1af0d37676774a92864f45ce40eb7afa87ac47bc02d6276e1363f80d94d1"
+    },
+    {
+      "path": ".tooling/verify-android-native-evidence-v0.mjs",
+      "sha256": "75c665e4828a7e32b9ecbed30ecdb549c80159430b90c2f7efc1646239e7d254"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Installed APK and covered application sources match the inspected build",
+      "result": "PASS"
+    },
+    {
+      "name": "Native store is empty on fresh launch; review does not create a booking",
+      "result": "PASS"
+    },
+    {
+      "name": "Two consecutive save taps produce one scoped pending item, command and history event",
+      "result": "PASS"
+    },
+    {
+      "name": "Conflict simulation preserves details and appends history",
+      "result": "PASS"
+    },
+    {
+      "name": "Reviewed revision keeps the booking ID, original command payload and prior history",
+      "result": "PASS"
+    },
+    {
+      "name": "One authorized force-stop actually stops Ubi; all stored bytes and draft survive reopening",
+      "result": "PASS"
+    },
+    {
+      "name": "Rejected overlapping save and declined cancellation leave stored data unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "Confirmed local cancellation retains booking/history and cancels queued commands",
+      "result": "PASS"
+    },
+    {
+      "name": "Scope switching does not mutate the original draft; UI evidence for all three scopes exists",
+      "result": "PASS"
+    },
+    {
+      "name": "Cancelled time can be reused; original history remains and completed draft is cleared",
+      "result": "PASS"
+    },
+    {
+      "name": "Screenshots are Ubi-focused and retained PID logs omit local debug-service addresses",
+      "result": "PASS"
+    }
+  ],
+  "fatal": null,
+  "evidenceFiles": [
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-empty-store-database.json",
+      "sha256": "f9353d7c8a292e50cfdc02a5d78a6cc881ff8758ef62b8cefb8aeeefefa7e6d7"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-empty-store-synthetic.sqlite",
+      "sha256": "553626070520f215f6d50419ad3b4edc21cd4e2e4cdbe4e447dcd39b5c3c4550"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-first-launch-screen.png",
+      "sha256": "af67ded581bdb70283a09cafccaa8bdbd7db116ea8deb50bb407f36173df4bb1"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-first-launch-ubi-log.txt",
+      "sha256": "9429c8ca553dda19ea6f9ace4077d7214fb566a5687c602005ee5d7eedd86de5"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/02-add-form-screen.png",
+      "sha256": "8cb6a3ca8f2f4648af29c2b56350db08996993355c1fde9ed086eff7086ea9b8"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/03-review-before-save-screen.png",
+      "sha256": "fd0d055360af8bde8cbdf47c6a161d0ad3105d228f741e8acaef172ffddc001f"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/03-review-no-booking-database.json",
+      "sha256": "e935cf599f37b3554faf5e28022dfbe46df3a41893990ddb70edf1245c72bcc6"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/03-review-no-booking-synthetic.sqlite",
+      "sha256": "553626070520f215f6d50419ad3b4edc21cd4e2e4cdbe4e447dcd39b5c3c4550"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/04-after-save-screen.png",
+      "sha256": "87dbdc606338fc38db2c5f73b1bd8d558b538fadc34309a37f1ee304943e55e1"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/04-saved-once-database.json",
+      "sha256": "df0c9123c913a4ca15e97df8982ef48089769df02d05ffc4f0fd3ba8c98a3e8f"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/04-saved-once-synthetic.sqlite",
+      "sha256": "55f03d66c19ac878f52a69214ad4c9141f238f7f6143ce00e5a9c7b628ecf3a5"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/05-saved-details-screen.png",
+      "sha256": "bdd9be9df2a56bc6d976819ee59c286df1b6da04e8f021dd4a2a7e1686369255"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-conflict-retained-database.json",
+      "sha256": "04cb0c900be8677bfc69ca21fcd6c7274eee08a53c9e931366056273352d53e3"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-conflict-retained-synthetic.sqlite",
+      "sha256": "50acc2d7698479fa28c4474c11c39d516489a0243147ab5fd71e0fce0dcd279e"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/06-simulated-conflict-screen.png",
+      "sha256": "663876e3fa10b951f3e96d004fb3cb21bc20f3e91e58e05f1f961d59ec80da1d"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/07-change-hour-menu-screen.png",
+      "sha256": "d8bf5bbf057cd072ebeebd0a74013400704fa4361633fbca3a30fd99e3a1bed5"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/08-revised-review-screen.png",
+      "sha256": "64a533b1bdb86b09e872ae00272bdcb4f69d2d9b7f3634cefcd898569579d602"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/09-revised-booking-database.json",
+      "sha256": "cc49ef1a46946b2a746b627e0c10dedb883776d690568f83ec96d22a2b2cd8f6"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/09-revised-booking-synthetic.sqlite",
+      "sha256": "29f209e6a9452bda84b392bdc17b87b8969decb4434f4d28f009bc31b794ae42"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/09-revised-details-screen.png",
+      "sha256": "5c3973ee68532622bb18d6fd71f5df2e80337abf6d3c0e56e779cf672ee9541a"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/10-draft-customer-menu-screen.png",
+      "sha256": "a188fd1d825cca27b310bcc215b495bbf110b9b273bc9ea98a7828a02f156246"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/11-before-force-stop-database.json",
+      "sha256": "afe341b0dfdc8265acac27f3196cad50ac9dcde2555654cf204b1db722c702a4"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/11-before-force-stop-synthetic.sqlite",
+      "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/11-unsaved-draft-screen.png",
+      "sha256": "d74340723efc522d59ff13f70146740db17ecc701ac85e6febdf87186c13da62"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/12-after-force-stop-database.json",
+      "sha256": "879cd1b3d53f85106bbfa173e0ddb7461af949e07b9f55be374f100fa0483793"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/12-after-force-stop-synthetic.sqlite",
+      "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/12-recovered-draft-screen.png",
+      "sha256": "ec46214aa4c5c6ae5502bcbdf23325932d4ac3f5e31209f1f2ed7cd8412fb20f"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-no-overlap-duplicate-database.json",
+      "sha256": "95f24609e9d23c90b124a9fc8ec39c85112cbbaaf7c21fb07140d8d305d63115"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-no-overlap-duplicate-synthetic.sqlite",
+      "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-overlap-rejected-screen.png",
+      "sha256": "5d1e57a34717741bf8a3c1dfd98d32d96a520084ce7e0b48d73f430be1a3dbbb"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/14-cancellation-confirmation-screen.png",
+      "sha256": "686a0ad09a44d5eed58ae1db5f9ddaf5c3ffa5d5a9cd121cf950d3f9a22a59be"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/14-kept-item-database.json",
+      "sha256": "b6a35690c20141891fc6f1ae760f7369dd52e8b3e3d9261bba6fc7850b368156"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/14-kept-item-synthetic.sqlite",
+      "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/15-cancelled-details-screen.png",
+      "sha256": "0fe296af3a1cb94f226c4464c0c29a044d04afbb1698b9a77add77075a50d45d"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/15-cancelled-history-retained-database.json",
+      "sha256": "f58ce8f24c75eca762ec7ddfc74402e64030cbe6c39bf3a3e55873baaef041c9"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/15-cancelled-history-retained-synthetic.sqlite",
+      "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/16-scope-picker-screen.png",
+      "sha256": "e8f9fa81e030b428cc38787356c05abb736ed93ff901a8a31ff097e16cd02cc0"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/17-events-no-foreign-draft-screen.png",
+      "sha256": "65ad0c5b9c52dc1280ea6187b816eefb92a6ce0f8364d8ea49b6ded7cfc3d62f"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/17-events-scope-database.json",
+      "sha256": "3f46a240ba9310b103680419a17423d8f894839c3a23d1b18c73c1118ec7c615"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/17-events-scope-synthetic.sqlite",
+      "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/18-other-business-no-foreign-draft-screen.png",
+      "sha256": "489ce9210df7075f5452ddd0aad57bf32f2e3d832d953e98817a2182235eadf6"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/19-returned-own-draft-screen.png",
+      "sha256": "80c4fffe9403edbe0fd137a65707d063ce33af697ab5d3fd0dfe834584392e88"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/19-returned-scope-database.json",
+      "sha256": "eeb0d7631d47cb7ac7f597224df6b8f55f8136ed80fee064647772167c0eaf01"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/19-returned-scope-synthetic.sqlite",
+      "sha256": "64b2a5bd49f2c743eff5eacdce82b6389fb726ebf2e3e5b00d03d4578e8ebd5b"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-final-schedule-screen.png",
+      "sha256": "b6da06f11f97ca54d1f9d2eec7ab427ba85e9545f0d64443bbc23df2c9f001d2"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-final-ubi-log.txt",
+      "sha256": "9ddffa99b9bb87d3e8339e18bfacccc79ba296e3bd1e6fccea7d6a67e00c1014"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-new-item-after-cancellation-database.json",
+      "sha256": "e10a9ada1028359c584d1220671c2c7eef339f0614e1ff479438cdd5509625f6"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-new-item-after-cancellation-synthetic.sqlite",
+      "sha256": "5c8d46c0a59bb835fbfda0318b7663f7e6715a204e9351f4bee979b3841af158"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/device-info.json",
+      "sha256": "d4d25a8195ba51df7e0cc4b75fd78c1e6775a5ddfb4abdf8c6e0f975134dbdc7"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/session-authorization.json",
+      "sha256": "1c4d6db88bcf37ce9a596a4b9dc6f92e8a328830cfafaac6b62528ef21736367"
+    },
+    {
+      "path": "prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/session-events.json",
+      "sha256": "1d6da48cfb666a644797001fedc93eb4b3756212800f3495bd52580dce83f781"
+    }
+  ],
+  "nativeSqliteExecuted": true,
+  "installedDeviceCount": 1,
+  "performanceMeasured": false,
+  "fullAcceptanceScenariosCompleted": 0,
+  "manualVisualEvidence": "Agent inspected app-focused screenshots; existence/hashes do not automatically validate their UI semantics",
+  "findings": [
+    {
+      "id": "NATIVE-UX-01",
+      "status": "OPEN_NOT_FIXED",
+      "detail": "At the initial Home scroll position, the floating Add button overlaps part of the booking card. Scrolling reveals the card; simplify the initial schedule layout and keep controls clear in a separately approved UI change."
+    }
+  ],
+  "notVerified": [
+    "Android 11/4 GB baseline or other/newer devices",
+    "Release/profile startup, frames, memory, battery or performance targets",
+    "Low-memory kill, reboot/power loss, background restrictions or low-storage failure",
+    "Airplane-mode/weak-network transitions",
+    "TalkBack, OS text scaling, language/calendar localization and participant comprehension",
+    "Production identity/permissions, server synchronization, payments, connectors, native messaging/calling",
+    "All 28 full scenarios and G7/G8/G9"
+  ]
+}

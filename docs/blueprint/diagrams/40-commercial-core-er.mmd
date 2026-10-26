@@ -1,0 +1,21 @@
+erDiagram
+    ORGANIZATION ||--o{ CUSTOMER_RECORD : owns
+    ACCOUNT ||--o{ CUSTOMER_ACCOUNT_CLAIM : may_link
+    CUSTOMER_RECORD ||--o{ CUSTOMER_ACCOUNT_CLAIM : claimed_by
+
+    CUSTOMER_RECORD ||--o{ BOOKING_PARTY : participates
+    BOOKING ||--o{ BOOKING_PARTY : has
+    BOOKING_OPERATION ||--o{ BOOKING : receives
+    BOOKING ||--o{ BOOKING_SCHEDULE_VERSION : schedules
+    BOOKING ||--o{ BOOKING_STATE_TRANSITION : transitions
+    BOOKING ||--o{ BOOKING_SNAPSHOT : commits
+    BOOKING ||--o{ FULFILMENT_EVENT : fulfilled_by
+
+    CUSTOMER_RECORD ||--o{ CUSTOM_REQUEST : submits
+    CUSTOM_REQUEST ||--o{ REQUEST_ANSWER : answers
+    CUSTOM_REQUEST ||--o{ QUOTATION : receives
+    QUOTATION ||--o{ QUOTATION_OPTION : offers
+    QUOTATION ||--o{ QUOTATION_ACCEPTANCE : accepted_as
+    CUSTOM_REQUEST ||--o| BOOKING : converts_to
+    BOOKING ||--o{ AMENDMENT : amended_by
+

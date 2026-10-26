@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-11T14:44:10.171Z",
+  "status": "PASS",
+  "scope": "7 Android build-check regression tests plus 9 documentation-checker tests; not device/application acceptance",
+  "command": [
+    "/usr/bin/node",
+    "--test",
+    ".tooling/sync-android-assets-v0.test.mjs",
+    ".tooling/verify-android-assets-v0.test.mjs",
+    ".tooling/inspect-android-badging-v0.test.mjs",
+    ".tooling/verify-blueprint.test.mjs"
+  ],
+  "exitCode": 0,
+  "passed": 16,
+  "failed": 0,
+  "skipped": 0,
+  "sourcesChangedDuringRun": false,
+  "sources": [
+    {
+      "path": ".tooling/sync-android-assets-v0.test.mjs",
+      "sha256": "2c02d68b8cafb75c3c73e2101654d53acb1f4bed486206e9cd0c40b95e8da865"
+    },
+    {
+      "path": ".tooling/verify-android-assets-v0.test.mjs",
+      "sha256": "fa0909cf11180c4dfa2bee4463016b2d05f355b6840b3176e3ed0f1ba2cccb83"
+    },
+    {
+      "path": ".tooling/inspect-android-badging-v0.test.mjs",
+      "sha256": "b0033eb0a2618c24d18b37b10852cd3c6b185dfa9984276df193dd386f6a778e"
+    },
+    {
+      "path": ".tooling/verify-blueprint.test.mjs",
+      "sha256": "78465c8503644ea7d4fe2afcb23e49d602038441d7bf5bed3eab071f334f2c23"
+    },
+    {
+      "path": ".tooling/sync-android-assets-v0.mjs",
+      "sha256": "ee4599a2fc03993be8145de2c2e51119dcb12823dda58cff3c0eb734ce013083"
+    },
+    {
+      "path": ".tooling/verify-android-assets-v0.mjs",
+      "sha256": "b69f29a39735597bd8f7d0d4b3d43513eaf1779bef296f44dbdf84cb3658b043"
+    },
+    {
+      "path": ".tooling/inspect-android-badging-v0.mjs",
+      "sha256": "4a4f5afa70f9d898054b8d3c409565a35437f2b7f0d58272086ad9122fcf5f2c"
+    },
+    {
+      "path": ".tooling/verify-blueprint.mjs",
+      "sha256": "f72619c9e438f82f081b41d6636359e30e3233742c0d15fc3edbfd14ebe884ad"
+    }
+  ]
+}

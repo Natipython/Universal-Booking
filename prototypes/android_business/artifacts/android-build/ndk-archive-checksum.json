@@ -1,0 +1,10 @@
+{
+  "status": "NOT_CAPTURED_SDKMANAGER_REMOVED_TEMPORARY_ARCHIVE",
+  "archive": "android-ndk-r28c-linux.zip",
+  "expectedBytes": 722261334,
+  "expectedSha1FromOfficialMetadata": "a7b54a5de87fecd125a17d54f73c446199e72a64",
+  "independentSha1": null,
+  "independentSha256": null,
+  "officialMetadata": "https://dl.google.com/android/repository/repository2-3.xml",
+  "note": "Optional additional hash attempt found that sdkmanager had already installed the NDK and removed its temporary archive. No independent archive-hash result is claimed. Package installation/version evidence is separate."
+}

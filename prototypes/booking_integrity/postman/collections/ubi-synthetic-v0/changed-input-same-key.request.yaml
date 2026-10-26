@@ -1,0 +1,39 @@
+$kind: http-request
+method: POST
+url: '{{base_url}}/v0/bookings'
+order: 7000
+headers:
+  - key: 'Content-Type'
+    value: 'application/json'
+  - key: 'X-Ubi-Demo-Principal'
+    value: 'demo-owner-a'
+  - key: 'Idempotency-Key'
+    value: 'postman-create-001'
+body:
+  type: json
+  content: |-
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "service_id": "portrait",
+      "expected_service_version": 1,
+      "start_at": "2030-01-15T10:00:00+03:00",
+      "customer_label": "Demo Guest 01",
+      "source": "Call"
+    }
+scripts:
+  - type: beforeRequest
+    language: text/javascript
+    code: |-
+      if (!/^http:\/\/127\.0\.0\.1:\d+$/.test(pm.variables.get('base_url'))) { pm.execution.skipRequest(); throw new Error('Refusing non-loopback synthetic target'); }
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test('status 409',()=>pm.response.to.have.status(409));
+      const body=pm.response.json();
+      pm.test('synthetic marker',()=>pm.expect(body.demo_only).to.eql(true));
+      pm.test('no-store',()=>pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store'));
+      pm.test('correlation ID',()=>pm.expect(pm.response.headers.get('X-Request-ID')).to.match(/^[a-f0-9-]{36}$/));
+      pm.test('declared response schema',()=>pm.response.to.have.jsonSchema({"type":"object","additionalProperties":false,"properties":{"type":{"type":"string"},"title":{"type":"string","minLength":1,"maxLength":128},"status":{"type":"integer","minimum":400,"maximum":599},"detail":{"type":"string","minLength":1,"maxLength":128},"code":{"type":"string","minLength":1,"maxLength":128},"correlation_id":{"type":"string","minLength":1,"maxLength":128},"retryable":{"type":"boolean"},"demo_only":{"type":"boolean","const":true}},"required":["type","title","status","detail","code","correlation_id","retryable","demo_only"]}));
+      pm.test('declared content type',()=>pm.expect(pm.response.headers.get('Content-Type')).to.include('application/problem+json'));
+      pm.test('safe domain code',()=>pm.expect(body.code).to.eql('idempotency_mismatch'));

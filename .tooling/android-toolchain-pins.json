@@ -1,0 +1,43 @@
+{
+  "verifiedOn": "2026-10-11",
+  "sdkAuthorization": {
+    "scope": "Explicit founder acceptance of linked Android SDK agreement and local tool installation/synthetic APK build",
+    "agreement": "https://developer.android.com/studio",
+    "agreementDate": "2026-04-28",
+    "additionalAgreementsAuthorized": false,
+    "stablePackageAgreement": {
+      "id": "android-sdk-license",
+      "date": "2019-01-16",
+      "status": "EXPLICITLY_AUTHORIZED",
+      "authorizedOn": "2026-10-11",
+      "authorization": "Yes, accept that stable SDK agreement and continue the local test build.",
+      "officialMetadata": "https://dl.google.com/android/repository/repository2-3.xml",
+      "reviewText": ".tooling/android-downloads/android-sdk-license-2019.txt",
+      "reviewTextSha256": "1f8729233617b193fd619213792ae16a41b95d2bbbf525dfe66998252ba68b16"
+    },
+    "telemetryAuthorized": false,
+    "publicationOrDeviceInstallationAuthorized": false
+  },
+  "jdk": {
+    "release": "jdk-17.0.20.1+1",
+    "archive": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "sha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+    "metadata": "https://api.adoptium.net/v3/assets/latest/17/hotspot?architecture=x64&image_type=jdk&os=linux&vendor=eclipse"
+  },
+  "commandLineTools": {
+    "archive": "commandlinetools-linux-15859902_latest.zip",
+    "url": "https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip",
+    "sha256": "4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583",
+    "metadata": "https://developer.android.com/studio"
+  },
+  "gradle": {
+    "version": "9.3.1",
+    "distributionSha256": "17f277867f6914d61b1aa02efab1ba7bb439ad652ca485cd8ca6842fccec6e43",
+    "wrapperSha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+    "metadata": "https://gradle.org/release-checksums/"
+  },
+  "requestedSdkPackages": [
+    "platform-tools", "platforms;android-36", "build-tools;36.0.0", "ndk;28.2.13676358"
+  ]
+}

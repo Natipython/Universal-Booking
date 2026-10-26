@@ -1,0 +1,13 @@
+flowchart LR
+    DB[(Authoritative domain records)] --> O[Transactional outbox]
+    O --> D[Versioned domain events]
+    A[Android and web] -->|Validated bounded product events| I[First-party ingestion]
+    I --> Q[Analytics event store or queue]
+    D --> R[Reporting projector]
+    Q --> R
+    R --> M[(Versioned metric projections)]
+    M --> B[Merchant and platform dashboards]
+    DB --> V[Reconciliation and quality checks]
+    M --> V
+    V -->|Drift or missing data| X[Quarantine, alert and rebuild]
+    A -. analytics failure never blocks .-> DB

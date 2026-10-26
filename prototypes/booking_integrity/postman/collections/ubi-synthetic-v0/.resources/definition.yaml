@@ -1,0 +1,11 @@
+$kind: collection
+name: 'Ubi synthetic V0 contract checks'
+description: 'Local synthetic fixtures only; no real authentication, messages or money.'
+variables:
+  - key: base_url
+    value: 'http://127.0.0.1:1'
+scripts:
+  - type: 'http:beforeRequest'
+    language: 'text/javascript'
+    code: |-
+      if (!/^http:\/\/127\.0\.0\.1:\d+$/.test(pm.variables.get('base_url'))) throw new Error('Refusing non-loopback synthetic target');

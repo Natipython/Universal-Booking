@@ -1,0 +1,12 @@
+flowchart LR
+    PR[Reviewed source change] --> CI[Static, test, contract, security gates]
+    CI --> Build[Build once: Go, web, Flutter, native if any]
+    Build --> Supply[SBOM + provenance + signature + release manifest]
+    Supply --> Stage[Staging + migration + E2E + recovery evidence]
+    Stage --> Approve{Risk-based approval}
+    Approve -- Reject --> PR
+    Approve -- Approve exact digests --> Canary[Progressive production / app pilot track]
+    Canary --> Observe{Task, SLO, integrity, cost healthy?}
+    Observe -- No --> Recover[Stop, disable, roll forward or compatible rollback]
+    Observe -- Yes --> Complete[Complete rollout and handoff]
+

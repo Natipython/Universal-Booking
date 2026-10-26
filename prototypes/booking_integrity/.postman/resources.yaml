@@ -1,0 +1,7 @@
+localResources:
+  specs:
+    - ../openapi.json
+  collections:
+    - ../postman/collections/ubi-synthetic-v0
+workspace:
+  id: ''

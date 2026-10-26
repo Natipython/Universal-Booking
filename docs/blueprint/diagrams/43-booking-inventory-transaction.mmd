@@ -1,0 +1,16 @@
+flowchart TD
+    A[Receive booking command] --> B[Authenticate and authorize tenant action]
+    B --> C[Claim idempotency key and compare request hash]
+    C -->|Existing result| R[Replay original result]
+    C -->|New command| D[Begin short transaction]
+    D --> E[Lock booking or draft aggregate]
+    E --> F[Lock resources or capacity buckets in stable order]
+    F --> G{Capacity still available?}
+    G -->|No| H[Record deterministic rejection]
+    G -->|Yes| I[Create or convert authoritative reservations]
+    I --> J[Write snapshot, schedule and transition]
+    J --> K[Append outbox and terminal idempotency result]
+    H --> K
+    K --> L[Commit once]
+    L --> M[Workers call providers after commit]
+    M --> N[Inbox and idempotency prevent duplicate effects]

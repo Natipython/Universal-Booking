@@ -1,0 +1,18 @@
+{
+  "sessionDate": "2026-10-15",
+  "model": "SM-G975W",
+  "sessionStatus": "CLOSED",
+  "testingConnectionStopped": true,
+  "futureDeviceUseRequiresRenewedAuthorization": true,
+  "scope": "Only the connected Android phone's synthetic Ubi demo: device checks, fresh install, launch, in-app interactions, app-focused screenshots and Ubi-only diagnostic/database evidence.",
+  "initialDirection": "Done and Connected!, Be Very! Careful! and Thoughtful! and Conscious!",
+  "usbAuthorizationReply": "I tapped Allow",
+  "forceStopAuthorization": "Yes, force-stop Ubi only",
+  "forceStopMaximumCount": 1,
+  "notAuthorized": [
+    "Access to other apps or personal contacts, messages, photos or files",
+    "Root, bootloader unlock, factory reset, uninstall or app-data clearing",
+    "Network, security, display or accessibility setting changes",
+    "Low-storage filling, power-loss tests, real data or production release"
+  ]
+}

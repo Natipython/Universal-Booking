@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-15T06:22:53.189Z",
+  "scope": "Documentation structure and identifier coverage only",
+  "sourceDigest": "4d84dcd7870a96777f0b5b7c24234447a90aeaa7a08a7bf6b1368d0aa53ca165",
+  "digestScope": "All blueprint Markdown and Mermaid source paths/content, excluding generated report",
+  "markdownFiles": 81,
+  "diagramSources": 38,
+  "catalogueEntries": 71,
+  "ledgerRequirements": 79,
+  "decisionDefinitions": 45,
+  "scenarioDefinitions": 28,
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "Mermaid syntax/rendering, application tests, devices, providers and legal approval are not checked"
+  ]
+}

@@ -1,0 +1,15 @@
+flowchart TD
+    A[Retention trigger or verified privacy request] --> B[Resolve subject, tenant, purpose and authority]
+    B --> C[Discover owner records and governed copies]
+    C --> D{Active duty, dispute, incident or legal hold?}
+    D -->|Yes| E[Restrict covered data and record review/release condition]
+    D -->|No| F[Decide delete, anonymize, correct, export or return]
+    F --> G[Execute domain-owner operations]
+    G --> H[Propagate to search, cache, objects, device sync, analytics and processors]
+    H --> I[Write minimal tombstone and completion manifest]
+    I --> J{Any failed tasks?}
+    J -->|Yes| K[Retry and escalate with deadline]
+    J -->|No| L[Communicate accurate completion and limitations]
+    E --> M[Periodic hold review]
+    M -->|Released| F
+    I --> N[Backup restore replays tombstones before reopening]

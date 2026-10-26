@@ -1,0 +1,461 @@
+{
+  "checkedAt": "2026-10-11T12:36:05.794Z",
+  "status": "PARTIAL_TOOLING_LIMITATION",
+  "coreChecksPassed": true,
+  "allRequestedLintersPassed": false,
+  "scope": "WB-03 synthetic loopback Go/PostgreSQL transaction and HTTP component checks on Linux; not production",
+  "sourceDigest": "45a97237cea1be90cb0df16591a765cfc144ba6c2ac1e0782cf5809befda0993",
+  "sourcesChangedDuringRun": false,
+  "digestScope": [
+    ".tooling/api-validation/package-lock.json",
+    ".tooling/build-integrity-collection.mjs",
+    ".tooling/build-integrity-contract.mjs",
+    ".tooling/postman-runtime/package-lock.json",
+    ".tooling/validate-integrity-v0.mjs",
+    "prototypes/booking_integrity/.postman/resources.yaml",
+    "prototypes/booking_integrity/AGENTS.md",
+    "prototypes/booking_integrity/CONTRACT.md",
+    "prototypes/booking_integrity/README.md",
+    "prototypes/booking_integrity/contract_test.go",
+    "prototypes/booking_integrity/go.mod",
+    "prototypes/booking_integrity/go.sum",
+    "prototypes/booking_integrity/http.go",
+    "prototypes/booking_integrity/model.go",
+    "prototypes/booking_integrity/openapi.json",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/.resources/definition.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/accept-quote.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/book-released-capacity.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/cancel.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/capacity-conflict.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/changed-input-same-key.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/consume-hold.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/create-booking.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/create-hold.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/fractional-money.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/health.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/issue-quote.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/missing-key.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/missing-principal.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/oversized-body.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/read-foreign-booking.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/read-own-booking.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/reschedule.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/retry-booking.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/retry-hold-conversion.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/retry-quote-conversion.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/revoked-fixture.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/stale-reschedule.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/unknown-field.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/wrong-media-type.request.yaml",
+    "prototypes/booking_integrity/postman/collections/ubi-synthetic-v0/wrong-tenant.request.yaml",
+    "prototypes/booking_integrity/postman/skills/api-builder/SKILL.md",
+    "prototypes/booking_integrity/schema.sql",
+    "prototypes/booking_integrity/service.go",
+    "prototypes/booking_integrity/service_test.go",
+    "prototypes/fixtures/booking-v0.json"
+  ],
+  "toolchain": {
+    "go": "go version go1.27.1 linux/amd64",
+    "postgres": "postgres (PostgreSQL) 18.6 (Ubuntu 18.6-0ubuntu0.26.04.1)",
+    "postman": "1.69.0"
+  },
+  "independentOpenAPI": {
+    "status": "PASS",
+    "validator": "@apidevtools/swagger-parser",
+    "openapi": "3.1.0"
+  },
+  "postmanSpecLint": {
+    "status": "FAIL",
+    "exitCode": 1,
+    "violations": 144,
+    "knownMediaRangeOnly": true,
+    "limitation": "Recorded disagreement over RFC 9457 application/problem+json media type; NOT a lint pass or approved waiver. No authenticated governance review.",
+    "diagnosticFiles": [
+      "postman-spec-lint.stdout.txt",
+      "postman-spec-lint.stderr.txt"
+    ]
+  },
+  "collectionLint": {
+    "status": "PASS",
+    "diagnostics": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "filesScanned": 25,
+    "elapsedMs": 169
+  },
+  "raceDetector": true,
+  "repeatCount": 3,
+  "testExitCode": 0,
+  "uniqueTopLevelTests": 23,
+  "uniqueCaseResultsIncludingSubtests": 25,
+  "caseResults": 75,
+  "passedCaseResults": 75,
+  "tests": [
+    {
+      "name": "TestExclusionConstraintBackstopWithoutServiceLocks",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=false",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=true",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentQuotationConversionHasOneBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestActualHTTPResponseLossReplaysCommittedBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestPostmanV3ContractCollection",
+      "result": "pass"
+    },
+    {
+      "name": "TestCatalogueChangeDoesNotSilentlyRewriteQuote",
+      "result": "pass"
+    },
+    {
+      "name": "TestOutboxFailureDuringMovePreservesOriginalAllocation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRuntimeRoleAndSyntheticBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicBookingRetryAndLostOutcome",
+      "result": "pass"
+    },
+    {
+      "name": "TestOneHundredConcurrentContenders",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentDuplicateCommandHasOneEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldAndCommittedCapacityShareOneBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestExpiredHoldCannotConfirmAndReconciles",
+      "result": "pass"
+    },
+    {
+      "name": "TestAdjacencyAndBuffers",
+      "result": "pass"
+    },
+    {
+      "name": "TestTenantAndOperationIsolation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRLSFailsClosedAndContextDoesNotLeak",
+      "result": "pass"
+    },
+    {
+      "name": "TestCompositeKeysAndAppendOnlyPrivileges",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicRescheduleAndStaleEdit",
+      "result": "pass"
+    },
+    {
+      "name": "TestCancellationReleasesCapacityAndStaleEditCannotResurrect",
+      "result": "pass"
+    },
+    {
+      "name": "TestForcedOutboxFailureRollsBackEveryEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestQuoteVersionAndAtomicConversion",
+      "result": "pass"
+    },
+    {
+      "name": "TestConflictingQuoteAcceptanceLeavesOfferAndCapacityIntact",
+      "result": "pass"
+    },
+    {
+      "name": "TestInvalidInputServiceVersionAndExactOffset",
+      "result": "pass"
+    },
+    {
+      "name": "TestExclusionConstraintBackstopWithoutServiceLocks",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=false",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=true",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentQuotationConversionHasOneBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestActualHTTPResponseLossReplaysCommittedBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestPostmanV3ContractCollection",
+      "result": "pass"
+    },
+    {
+      "name": "TestCatalogueChangeDoesNotSilentlyRewriteQuote",
+      "result": "pass"
+    },
+    {
+      "name": "TestOutboxFailureDuringMovePreservesOriginalAllocation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRuntimeRoleAndSyntheticBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicBookingRetryAndLostOutcome",
+      "result": "pass"
+    },
+    {
+      "name": "TestOneHundredConcurrentContenders",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentDuplicateCommandHasOneEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldAndCommittedCapacityShareOneBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestExpiredHoldCannotConfirmAndReconciles",
+      "result": "pass"
+    },
+    {
+      "name": "TestAdjacencyAndBuffers",
+      "result": "pass"
+    },
+    {
+      "name": "TestTenantAndOperationIsolation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRLSFailsClosedAndContextDoesNotLeak",
+      "result": "pass"
+    },
+    {
+      "name": "TestCompositeKeysAndAppendOnlyPrivileges",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicRescheduleAndStaleEdit",
+      "result": "pass"
+    },
+    {
+      "name": "TestCancellationReleasesCapacityAndStaleEditCannotResurrect",
+      "result": "pass"
+    },
+    {
+      "name": "TestForcedOutboxFailureRollsBackEveryEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestQuoteVersionAndAtomicConversion",
+      "result": "pass"
+    },
+    {
+      "name": "TestConflictingQuoteAcceptanceLeavesOfferAndCapacityIntact",
+      "result": "pass"
+    },
+    {
+      "name": "TestInvalidInputServiceVersionAndExactOffset",
+      "result": "pass"
+    },
+    {
+      "name": "TestExclusionConstraintBackstopWithoutServiceLocks",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=false",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace/expired=true",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldConversionAndBookingRace",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentQuotationConversionHasOneBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestActualHTTPResponseLossReplaysCommittedBooking",
+      "result": "pass"
+    },
+    {
+      "name": "TestPostmanV3ContractCollection",
+      "result": "pass"
+    },
+    {
+      "name": "TestCatalogueChangeDoesNotSilentlyRewriteQuote",
+      "result": "pass"
+    },
+    {
+      "name": "TestOutboxFailureDuringMovePreservesOriginalAllocation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRuntimeRoleAndSyntheticBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicBookingRetryAndLostOutcome",
+      "result": "pass"
+    },
+    {
+      "name": "TestOneHundredConcurrentContenders",
+      "result": "pass"
+    },
+    {
+      "name": "TestConcurrentDuplicateCommandHasOneEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestHeldAndCommittedCapacityShareOneBoundary",
+      "result": "pass"
+    },
+    {
+      "name": "TestExpiredHoldCannotConfirmAndReconciles",
+      "result": "pass"
+    },
+    {
+      "name": "TestAdjacencyAndBuffers",
+      "result": "pass"
+    },
+    {
+      "name": "TestTenantAndOperationIsolation",
+      "result": "pass"
+    },
+    {
+      "name": "TestRLSFailsClosedAndContextDoesNotLeak",
+      "result": "pass"
+    },
+    {
+      "name": "TestCompositeKeysAndAppendOnlyPrivileges",
+      "result": "pass"
+    },
+    {
+      "name": "TestAtomicRescheduleAndStaleEdit",
+      "result": "pass"
+    },
+    {
+      "name": "TestCancellationReleasesCapacityAndStaleEditCannotResurrect",
+      "result": "pass"
+    },
+    {
+      "name": "TestForcedOutboxFailureRollsBackEveryEffect",
+      "result": "pass"
+    },
+    {
+      "name": "TestQuoteVersionAndAtomicConversion",
+      "result": "pass"
+    },
+    {
+      "name": "TestConflictingQuoteAcceptanceLeavesOfferAndCapacityIntact",
+      "result": "pass"
+    },
+    {
+      "name": "TestInvalidInputServiceVersionAndExactOffset",
+      "result": "pass"
+    }
+  ],
+  "postmanRuns": {
+    "requests": [
+      {
+        "executed": 25,
+        "failed": 0
+      },
+      {
+        "executed": 25,
+        "failed": 0
+      },
+      {
+        "executed": 25,
+        "failed": 0
+      }
+    ],
+    "assertions": [
+      {
+        "executed": 172,
+        "failed": 0
+      },
+      {
+        "executed": 172,
+        "failed": 0
+      },
+      {
+        "executed": 172,
+        "failed": 0
+      }
+    ],
+    "loopbackGuardScripts": [
+      {
+        "executed": 25,
+        "failed": 0
+      },
+      {
+        "executed": 25,
+        "failed": 0
+      },
+      {
+        "executed": 25,
+        "failed": 0
+      }
+    ],
+    "totalRequests": 75,
+    "totalAssertions": 516
+  },
+  "databaseSafety": {
+    "existing_database_accepted": false,
+    "new_private_temporary_cluster": true,
+    "server_stopped": true,
+    "synthetic_only": true,
+    "tcp_enabled": false,
+    "temporary_files_removed": true
+  },
+  "releaseGatesPassed": false,
+  "physicalDeviceVerified": false,
+  "notVerified": [
+    "Real identity or current staff-membership authorization",
+    "Android/server integration, APK or physical phone",
+    "Network/device latency, sustained throughput, process-crash/power-loss recovery or restore",
+    "Multi-resource, pooled or nightly/hotel inventory",
+    "Customer link/guest-token security or actual quotation UI",
+    "Notice delivery, payments, social connectors, in-app messaging or calls",
+    "Production migration/backup, independent reviewer, licensed counsel/provider/pilot/release approval",
+    "Complete SCN scenario suite or G7/G8/G9 passage"
+  ]
+}

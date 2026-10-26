@@ -1,0 +1,31 @@
+$kind: http-request
+method: POST
+url: '{{base_url}}/v0/submissions'
+order: 11000
+settings:
+  followRedirects: false
+headers:
+  - key: 'Origin'
+    value: '{{base_url}}'
+  - key: 'Content-Type'
+    value: 'application/x-www-form-urlencoded'
+body:
+  type: urlencoded
+  content:
+    - key: 'csrf'
+      value: '{{csrf}}'
+    - key: 'review_id'
+      value: '{{review}}'
+scripts:
+  - type: beforeRequest
+    language: text/javascript
+    code: |-
+      if(!/^http:\/\/127\.0\.0\.1:\d+$/.test(pm.variables.get('base_url'))){pm.execution.skipRequest();throw new Error('Refusing non-loopback demo target');}
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test('status 303',()=>pm.response.to.have.status(303));
+      const body=pm.response.text();
+      pm.test('private cache policy',()=>pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store'));
+      pm.test('no referrer leakage',()=>pm.expect(pm.response.headers.get('Referrer-Policy')).to.eql('no-referrer'));
+      pm.test('no framing',()=>pm.expect(pm.response.headers.get('X-Frame-Options')).to.eql('DENY'));

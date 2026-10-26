@@ -1,0 +1,17 @@
+{
+  "checkedOn": "2026-10-11",
+  "status": "SUPERSEDED_COMPILE_ONLY_NOT_FOR_DEVICE_HANDOFF",
+  "compilationSucceeded": true,
+  "apkSha256": "c432f4b4f1b8519c2eec6556c0ae5f5d257c519bcca3236b9366b48aaf7db793",
+  "apkBytes": 160354682,
+  "actualMinSdk": 30,
+  "actualTargetSdk": 36,
+  "allowBackup": false,
+  "nativeSqflitePluginIncluded": true,
+  "signatureV2Verified": true,
+  "inspectionRunnerFalseFailure": "Runner checked sdkVersion rather than actual aapt2 minSdkVersion label; preserved raw receipt records that failure.",
+  "startupAssetsPresent": false,
+  "startupAssetFinding": "Both parent-relative JSON assets were outside Flutter's packaged asset directory; actual APK has neither booking-v0.json nor tokens.json. The subsequent verifier rejects this archived APK.",
+  "deviceInstalled": false,
+  "nativeRuntimeVerified": false
+}

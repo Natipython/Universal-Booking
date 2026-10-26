@@ -1,0 +1,15 @@
+flowchart TD
+    A[Detect corruption, loss or outage] --> B[Declare incident and stop unsafe writers/external effects]
+    B --> C[Identify time, scope, releases and provider effects]
+    C --> D[Select backup/PITR and restore to isolated environment]
+    D --> E[Verify schema, roles, RLS, constraints, counts and keys]
+    E --> F[Replay deletion, revocation and legal-hold state]
+    F --> G[Reconcile object manifest and checksums]
+    G --> H[Rebuild search, cache, reports and sync projections]
+    H --> I[Inspect outbox/inbox and reconcile payment/message unknowns]
+    I --> J[Run canary tenant isolation and booking tests]
+    J --> K{Recovery verified?}
+    K -->|No| L[Keep isolated, correct or choose another recovery point]
+    L --> D
+    K -->|Yes| M[Stage read-only then essential writes and provider effects]
+    M --> N[Monitor, communicate and complete post-incident actions]

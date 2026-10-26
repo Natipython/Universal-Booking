@@ -1,0 +1,71 @@
+{
+  "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/13-no-overlap-duplicate-synthetic.sqlite",
+  "sha256": "18aa11f087920cdc436a4ab4858de58636956701f9ac9881d13a02fa5aec0a98",
+  "quickCheck": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "bookings": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "id": "v0_e534da84679c5686f3597748728ec2e8",
+      "service_id": "portrait",
+      "customer_label": "Demo Guest 01",
+      "source": "Call",
+      "start_ms": 1894690800000,
+      "end_ms": 1894694400000,
+      "price_minor": 200000,
+      "status": "pending",
+      "revision": 3
+    }
+  ],
+  "outbox": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "state": "simulatedConflict"
+    },
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "state": "pending"
+    }
+  ],
+  "audit": [
+    {
+      "event_id": 1,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_saved"
+    },
+    {
+      "event_id": 2,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "simulated_conflict"
+    },
+    {
+      "event_id": 3,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_revised"
+    }
+  ],
+  "drafts": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "payload": "{\"organizationId\":\"demo-org-a\",\"operationId\":\"studio\",\"serviceId\":\"portrait\",\"customerLabel\":\"Demo Guest 02\",\"startUtcMs\":1894690800000,\"source\":\"Call\"}"
+    }
+  ],
+  "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+}

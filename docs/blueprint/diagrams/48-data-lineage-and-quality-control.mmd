@@ -1,0 +1,15 @@
+flowchart LR
+    U[Customer, staff, provider or system source] --> V[Client and API validation]
+    V --> D[(Authoritative domain data with provenance)]
+    D --> E[Versioned outbox/events]
+    E --> P[Search, sync, reports, notifications and integrations]
+    D --> R[Invariant and reconciliation checks]
+    P --> R
+    R -->|Pass| S[Quality scorecard]
+    R -->|Mismatch or unknown| Q[Quarantine / data-quality case]
+    Q --> C[Authorized owner correction or rebuild]
+    C --> D
+    C --> P
+    G[Contracts, dictionary, classification and lineage] -. govern .-> V
+    G -. govern .-> D
+    G -. govern .-> P

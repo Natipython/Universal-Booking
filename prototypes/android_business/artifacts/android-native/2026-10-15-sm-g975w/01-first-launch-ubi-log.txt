@@ -1,0 +1,114 @@
+--------- beginning of main
+I/ubi_business_v(21724): Late-enabling -Xcheck:jni
+E/USNET   (21724): USNET: appName: dev.ubi.validation.ubi_business_v0
+D/ProcessState(21724): Binder ioctl to enable oneway spam detection failed: Invalid argument
+D/ActivityThread(21724): setConscryptValidator
+D/ActivityThread(21724): setConscryptValidator - put
+--------- beginning of system
+D/ActivityThread(21724): handleBindApplication()++ app=dev.ubi.validation.ubi_business_v0
+D/CompatibilityChangeReporter(21724): Compat change id reported: 171979766; UID 10373; state: ENABLED
+V/GraphicsEnvironment(21724): ANGLE Developer option for 'dev.ubi.validation.ubi_business_v0' set to: 'default'
+V/GraphicsEnvironment(21724): App is not on the allowlist for updatable production driver.
+D/LoadedApk(21724): LoadedApk::makeApplication() appContext.mOpPackageName=dev.ubi.validation.ubi_business_v0 appContext.mBasePackageName=dev.ubi.validation.ubi_business_v0
+D/NetworkSecurityConfig(21724): No Network Security Config specified, using platform default
+D/NetworkSecurityConfig(21724): No Network Security Config specified, using platform default
+D/ActivityThread(21724): handleBindApplication() --
+D/OpenGLRenderer(21724): RenderThread::requireGlContext()
+I/AdrenoGLES-0(21724): QUALCOMM build                   : 3dad7f8ed7, I593c16c433
+I/AdrenoGLES-0(21724): Build Date                       : 10/01/21
+I/AdrenoGLES-0(21724): OpenGL ES Shader Compiler Version: EV031.32.02.02
+I/AdrenoGLES-0(21724): Local Branch                     : 
+I/AdrenoGLES-0(21724): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.073
+I/AdrenoGLES-0(21724): Remote Branch                    : NONE
+I/AdrenoGLES-0(21724): Reconstruct Branch               : NOTHING
+I/AdrenoGLES-0(21724): Build Config                     : S P 10.0.7 AArch64
+I/AdrenoGLES-0(21724): Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+I/AdrenoGLES-0(21724): PFP: 0x016ee190, ME: 0x00000000
+D/OpenGLRenderer(21724): RenderThread::setGrContext()
+I/ResourceExtractor(21724): Resource version mismatch res_timestamp-1-1792044417031
+D/FlutterJNI(21724): Beginning load of flutter...
+D/FlutterJNI(21724): flutter (null) was loaded normally!
+D/skia    (21724): [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+I/ResourceExtractor(21724): Extracted baseline resource assets/flutter_assets/kernel_blob.bin
+I/ResourceExtractor(21724): Extracted baseline resource assets/flutter_assets/vm_snapshot_data
+I/ResourceExtractor(21724): Extracted baseline resource assets/flutter_assets/isolate_snapshot_data
+W/ubi_business_v(21724): Accessing hidden method Landroid/view/SurfaceControl$Builder;->setHidden(Z)Landroid/view/SurfaceControl$Builder; (blocked, linking, denied)
+E/libc    (21724): Access denied finding property "ro.vendor.mediatek.platform"
+D/vulkan  (21724): searching for layers in '/data/app/~~tFoW-xXBBuRwSfqrY7FUsQ==/dev.ubi.validation.ubi_business_v0-4pbIjCgeDOamcaJFdQgGHA==/lib/arm64'
+D/vulkan  (21724): searching for layers in '/data/app/~~tFoW-xXBBuRwSfqrY7FUsQ==/dev.ubi.validation.ubi_business_v0-4pbIjCgeDOamcaJFdQgGHA==/base.apk!/lib/arm64-v8a'
+D/vulkan  (21724): added global layer 'VK_LAYER_KHRONOS_validation' from library '/data/app/~~tFoW-xXBBuRwSfqrY7FUsQ==/dev.ubi.validation.ubi_business_v0-4pbIjCgeDOamcaJFdQgGHA==/base.apk!/lib/arm64-v8a/libVkLayer_khronos_validation.so'
+I/AdrenoVK-0(21724): ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+I/AdrenoVK-0(21724): ===== END DUMP OF OVERRIDDEN SETTINGS =====
+I/AdrenoVK-0(21724): QUALCOMM build          : 3dad7f8ed7, I593c16c433
+I/AdrenoVK-0(21724): Build Date              : 10/01/21
+I/AdrenoVK-0(21724): Shader Compiler Version : EV031.32.02.02
+I/AdrenoVK-0(21724): Local Branch            : 
+I/AdrenoVK-0(21724): Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.073
+I/AdrenoVK-0(21724): Remote Branch           : NONE
+I/AdrenoVK-0(21724): Reconstruct Branch      : NOTHING
+I/AdrenoVK-0(21724): Build Config            : S P 10.0.7 AArch64
+I/AdrenoVK-0(21724): Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+I/flutter (21724): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (21724): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+I/flutter (21724): The Dart VM service is listening on [LOCAL_DEBUG_ADDRESS_REDACTED]
+W/ubi_business_v(21724): Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSourceNodeId()J (unsupported,test-api, reflection, allowed)
+W/ubi_business_v(21724): Accessing hidden method Landroid/view/accessibility/AccessibilityRecord;->getSourceNodeId()J (unsupported, reflection, allowed)
+W/ubi_business_v(21724): Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mChildNodeIds:Landroid/util/LongArray; (unsupported, reflection, allowed)
+W/ubi_business_v(21724): Accessing hidden method Landroid/util/LongArray;->get(I)J (unsupported, reflection, allowed)
+D/AccessibilityBridge(21724): Setting not found: accessibility_display_inversion_enabled, using default: 0
+D/FlutterRenderer(21724): Width is zero. 0,0
+I/DecorView(21724): [INFO] isPopOver=false, config=true
+I/DecorView(21724): updateCaptionType >> DecorView@99cbb11[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+D/DecorView(21724): setCaptionType = 0, this = DecorView@99cbb11[]
+I/DecorView(21724): getCurrentDensityDpi: from real metrics. densityDpi=560 msg=resources_loaded
+I/DecorView(21724): notifyKeepScreenOnChanged: keepScreenOn=false
+I/ViewRootImpl@b00f74d[MainActivity](21724): setView = com.android.internal.policy.DecorView@99cbb11 TM=true
+I/SurfaceView@d20a9d9(21724): onWindowVisibilityChanged(0) true io.flutter.embedding.android.FlutterSurfaceView{d20a9d9 V.E...... ......I. 0,0-0,0} of ViewRootImpl@b00f74d[MainActivity]
+D/FlutterRenderer(21724): Width is zero. 0,0
+I/ViewRootImpl@b00f74d[MainActivity](21724): Relayout returned: old=(0,0,1440,3040) new=(0,0,1440,3040) req=(1440,3040)0 dur=10 res=0x7 s={true -5476376632495871008} ch=true fn=-1
+D/FlutterJNI(21724): Sending viewport metrics to the engine.
+D/hw-ProcessState(21724): Binder ioctl to enable oneway spam detection failed: Invalid argument
+I/SurfaceView@d20a9d9(21724): windowStopped(false) true io.flutter.embedding.android.FlutterSurfaceView{d20a9d9 V.E...... ......ID 0,0-1440,2987} of ViewRootImpl@b00f74d[MainActivity]
+I/ViewRootImpl@b00f74d[MainActivity](21724): [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11374 android.view.ViewRootImpl.performTraversals:4167 android.view.ViewRootImpl.doTraversal:2893 
+I/SurfaceView@d20a9d9(21724): pST: sr = Rect(0, 0 - 1440, 2987) sw = 1440 sh = 2987
+I/SurfaceView@d20a9d9(21724): onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+I/SurfaceView@d20a9d9(21724): pST: mTmpTransaction.apply, mTmpTransaction = android.view.SurfaceControl$Transaction@ede777b
+I/SurfaceView@d20a9d9(21724): updateSurface: mVisible = true mSurface.isValid() = true
+I/SurfaceView@d20a9d9(21724): updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+I/SurfaceView@d20a9d9(21724): surfaceCreated 1 #8 io.flutter.embedding.android.FlutterSurfaceView{d20a9d9 V.E...... ......ID 0,0-1440,2987}
+D/OpenGLRenderer(21724): eglCreateWindowSurface
+I/SurfaceView@d20a9d9(21724): surfaceChanged (1440,2987) 1 #8 io.flutter.embedding.android.FlutterSurfaceView{d20a9d9 V.E...... ......ID 0,0-1440,2987}
+I/ViewRootImpl@b00f74d[MainActivity](21724): [DP] dp(2) 1 android.view.SurfaceView.updateSurface:1375 android.view.SurfaceView.lambda$new$1$SurfaceView:254 android.view.SurfaceView$$ExternalSyntheticLambda2.onPreDraw:2 
+I/Choreographer(21724): Skipped 55 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI(21724): Sending viewport metrics to the engine.
+I/Choreographer(21724): Skipped 73 frames!  The application may be doing too much work on its main thread.
+D/PhoneWindow(21724): forceLight changed to false [dev.ubi.validation.ubi_business_v0/dev.ubi.validation.ubi_business_v0.MainActivity] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4319 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4011 io.flutter.plugin.platform.PlatformPlugin.setSystemChromeSystemUIOverlayStyle:578 io.flutter.plugin.platform.PlatformPlugin.access$700:37 io.flutter.plugin.platform.PlatformPlugin$1.setSystemUiOverlayStyle:125 
+I/DecorView(21724): notifyKeepScreenOnChanged: keepScreenOn=false
+I/DecorView(21724): notifyKeepScreenOnChanged: keepScreenOn=false
+I/BufferQueueProducer(21724): [SurfaceView - dev.ubi.validation.ubi_business_v0/dev.ubi.validation.ubi_business_v0.MainActivity@d20a9d9@0#1(BLAST Consumer)1](id:54dc00000001,api:1,p:21724,c:21724) queueBuffer: queued for the first time.
+I/ViewRootImpl@b00f74d[MainActivity](21724): Relayout returned: old=(0,0,1440,3040) new=(0,0,1440,3040) req=(1440,3040)0 dur=8 res=0x3 s={true -5476376632495871008} ch=false fn=1
+D/FlutterJNI(21724): Sending viewport metrics to the engine.
+I/ViewRootImpl@b00f74d[MainActivity](21724): updateBoundsLayer: t = android.view.SurfaceControl$Transaction@11bf5d6 sc = Surface(name=Bounds for - dev.ubi.validation.ubi_business_v0/dev.ubi.validation.ubi_business_v0.MainActivity@0)/@0x7531057 frame = 1
+I/ViewRootImpl@b00f74d[MainActivity](21724): mWNT: t = android.view.SurfaceControl$Transaction@11bf5d6 fN = 1 android.view.ViewRootImpl.prepareSurfaces:2752 android.view.ViewRootImpl.performTraversals:3998 android.view.ViewRootImpl.doTraversal:2893 
+I/ViewRootImpl@b00f74d[MainActivity](21724): mWNT: merge t to BBQ
+I/ViewRootImpl@b00f74d[MainActivity](21724): [DP] pdf(1) 1 android.view.SurfaceView.notifyDrawFinished:599 android.view.SurfaceView.performDrawFinished:586 android.view.SurfaceView.$r8$lambda$st27mCkd9jfJkTrN_P3qIGKX6NY:0 
+I/SurfaceView@d20a9d9(21724): uSP: rtp = Rect(0, 0 - 1440, 2987) rtsw = 1440 rtsh = 2987
+I/SurfaceView@d20a9d9(21724): onSSPAndSRT: pl = 0 pt = 0 sx = 1.0 sy = 1.0
+I/SurfaceView@d20a9d9(21724): aOrMT: uB = true t = android.view.SurfaceControl$Transaction@7a2a744 fN = 1 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1728 android.graphics.RenderNode$CompositePositionUpdateListener.positionChanged:319 
+I/SurfaceView@d20a9d9(21724): aOrMT: vR.mWNT, vR = ViewRootImpl@b00f74d[MainActivity]
+I/ViewRootImpl@b00f74d[MainActivity](21724): mWNT: t = android.view.SurfaceControl$Transaction@7a2a744 fN = 1 android.view.SurfaceView.applyOrMergeTransaction:1628 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1728 
+I/ViewRootImpl@b00f74d[MainActivity](21724): mWNT: merge t to BBQ
+I/BufferQueueProducer(21724): [ViewRootImpl@b00f74d[MainActivity]#0(BLAST Consumer)0](id:54dc00000000,api:1,p:21724,c:21724) queueBuffer: queued for the first time.
+I/ViewRootImpl@b00f74d[MainActivity](21724): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4969 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938 
+I/ViewRootImpl@b00f74d[MainActivity](21724): [DP] rdf()
+D/ViewRootImpl@b00f74d[MainActivity](21724): reportDrawFinished (fn: 1) 
+I/ViewRootImpl@b00f74d[MainActivity](21724): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager(21724): startInputInner - Id : 0
+I/InputMethodManager(21724): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputMethodManager(21724): startInputInner - Id : 0
+D/ProfileInstaller(21724): Installing profile for dev.ubi.validation.ubi_business_v0
+I/ubi_business_v(21724): Thread[6,tid=21733,WaitingInMainSignalCatcherLoop,Thread*=0xb4000077b3d17f50,peer=0x13943a00,"Signal Catcher"]: reacting to signal 10
+I/ubi_business_v(21724): 
+I/ubi_business_v(21724): SIGUSR1 forcing GC (no HPROF) and profile save
+I/ubi_business_v(21724): Explicit concurrent copying GC freed 12365(569KB) AllocSpace objects, 0(0B) LOS objects, 69% free, 2697KB/8841KB, paused 84us,63us total 27.749ms
+D/[secipm](21724): mSecIpmManager setProfileLength dev.ubi.validation.ubi_business_v0 profile:4487

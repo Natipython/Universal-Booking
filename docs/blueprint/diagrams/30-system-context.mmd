@@ -1,0 +1,47 @@
+flowchart LR
+    Customer[Customer / organizer / participant]
+    Merchant[Business owner, manager and staff]
+    UbiWorkforce[Authorized Ubi workforce]
+
+    subgraph UserBoundary[User-controlled devices and networks]
+        Android[Ubi Business Android]
+        Desktop[Business desktop/web]
+        CustomerClient[Customer web / later app]
+        OpsClient[Ubi operations console]
+    end
+
+    subgraph UbiBoundary[Ubi-controlled software and data boundary]
+        Edge[Public link, application and API edge]
+        Platform[Ubi authoritative platform]
+        Workers[Workflow, sync and integration workers]
+        Stores[(Operational and supporting data systems)]
+    end
+
+    Identity[Phone verification / identity providers]
+    Channels[Official messaging-channel providers]
+    Payments[Licensed payment / mobile-money providers]
+    Delivery[Push, SMS and email providers]
+    Media[Object/media processing provider]
+    Maps[Map / geocoding provider]
+    AppStores[Android and later Apple/app distribution]
+
+    Customer --> CustomerClient
+    Merchant --> Android
+    Merchant --> Desktop
+    UbiWorkforce --> OpsClient
+
+    Android --> Edge
+    Desktop --> Edge
+    CustomerClient --> Edge
+    OpsClient --> Edge
+    Edge --> Platform
+    Platform <--> Stores
+    Platform <--> Workers
+
+    Platform <--> Identity
+    Workers <--> Channels
+    Workers <--> Payments
+    Workers <--> Delivery
+    Workers <--> Media
+    Platform <--> Maps
+    AppStores --> Android

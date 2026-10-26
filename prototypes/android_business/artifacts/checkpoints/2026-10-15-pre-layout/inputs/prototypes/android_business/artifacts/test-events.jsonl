@@ -1,0 +1,86 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":277491,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/assets_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/assets_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"suite":{"id":2,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/interface_test.dart"},"type":"suite","time":9}
+{"test":{"id":3,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/interface_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":10}
+{"count":3,"time":11,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4600}
+{"group":{"id":4,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":4605}
+{"test":{"id":5,"name":"startup asset keys load exact shared synthetic fixture and palette","suiteID":0,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":12,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/assets_test.dart"},"type":"testStart","time":4606}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4615}
+{"group":{"id":6,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":8,"line":null,"column":null,"url":null},"type":"group","time":4616}
+{"test":{"id":7,"name":"(setUpAll)","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":33,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":4616}
+{"testID":5,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4697}
+{"test":{"id":8,"name":"asset manifest declares safe project-local startup keys","suiteID":0,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":24,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/assets_test.dart"},"type":"testStart","time":4698}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":4706}
+{"suite":{"id":9,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/repository_test.dart"},"type":"suite","time":4731}
+{"test":{"id":10,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/repository_test.dart","suiteID":9,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":4731}
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":4779}
+{"test":{"id":11,"name":"customer-safe demo boundary and working manual save/details path","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":121,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":4780}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+{"testID":10,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":5661}
+{"group":{"id":12,"suiteID":9,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":18,"line":null,"column":null,"url":null},"type":"group","time":5662}
+{"test":{"id":13,"name":"(setUpAll)","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":31,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":5662}
+{"testID":13,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":5688}
+{"test":{"id":14,"name":"fixtures are explicitly synthetic, two tenants, two operations in one tenant","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":50,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":5688}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5884}
+{"test":{"id":15,"name":"atomic local save produces pending booking, command and history; never confirmed","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":65,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":5885}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":5968}
+{"test":{"id":16,"name":"same command and input return one logical item","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":77,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":5968}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6015}
+{"test":{"id":17,"name":"same command with changed input fails without rewriting old intent","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":85,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6015}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6066}
+{"test":{"id":18,"name":"outbox insert failure rolls back booking and audit; draft remains","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":103,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6066}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6133}
+{"test":{"id":19,"name":"local overlap rejects without losing draft; adjacent interval succeeds","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":121,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6133}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6184}
+{"test":{"id":20,"name":"concurrent local contenders serialize and create one pending item","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":139,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6185}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6260}
+{"test":{"id":21,"name":"tenant scope prevents reads, history and changes of another tenant item","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":157,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6261}
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6330}
+{"test":{"id":22,"name":"operation scope is independent inside the same organization","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":177,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6331}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6380}
+{"test":{"id":23,"name":"scoped composite FK refuses a cross-operation service","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":188,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6380}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6416}
+{"test":{"id":24,"name":"draft persists across close/reopen, scoped to one operation","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":201,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6416}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6453}
+{"test":{"id":25,"name":"simulated conflict retains details and is idempotent","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":219,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6455}
+{"testID":25,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6496}
+{"test":{"id":26,"name":"local revision preserves command payload/history and one booking ID","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":230,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6497}
+{"testID":26,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6544}
+{"test":{"id":27,"name":"failed revision keeps the old schedule; stale revision is rejected","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":263,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6545}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6600}
+{"test":{"id":28,"name":"cancellation retains history and removes pending work; cannot be resurrected","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":281,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6600}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6652}
+{"test":{"id":29,"name":"invalid scope, real-looking label and closing-hours overflow cannot save","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":298,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6653}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6677}
+{"test":{"id":30,"name":"exact money and fixed Ethiopia prototype timezone boundaries","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":323,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6679}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":6703}
+{"test":{"id":31,"name":"committed SQLite item survives child-process SIGKILL without graceful close","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":330,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/repository_test.dart"},"type":"testStart","time":6704}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":8528}
+{"test":{"id":32,"name":"double tap saves one logical local intent","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":168,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":8528}
+{"testID":32,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":9588}
+{"test":{"id":33,"name":"failed transaction keeps review/input and never shows a saved item","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":187,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":9589}
+{"testID":33,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":10428}
+{"test":{"id":34,"name":"simulated conflict is explicit and retains saved details","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":218,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":10429}
+{"testID":34,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11170}
+{"test":{"id":35,"name":"switching demo tenant shows only that tenant schedule","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":244,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":11171}
+{"testID":35,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":11879}
+{"test":{"id":36,"name":"home and form remain operable at 200 percent font scale","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":266,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":11880}
+{"testID":36,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12388}
+{"test":{"id":37,"name":"primary save action has a labelled minimum touch target","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":279,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":12388}
+{"testID":31,"messageType":"print","message":"Running build hooks...Running build hooks...","type":"print","time":12728}
+{"testID":31,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12733}
+{"test":{"id":38,"name":"(tearDownAll)","suiteID":9,"groupIDs":[12],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":12734}
+{"testID":38,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":12738}
+{"testID":37,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12926}
+{"test":{"id":39,"name":"capture actual Flutter home/review rendering and verify palette pairs","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":307,"root_column":3,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":12927}
+{"testID":39,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":13580}
+{"test":{"id":40,"name":"(tearDownAll)","suiteID":2,"groupIDs":[6],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":13580}
+{"testID":40,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":13583}
+{"success":true,"type":"done","time":13615}

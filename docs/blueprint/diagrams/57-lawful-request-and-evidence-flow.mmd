@@ -1,0 +1,15 @@
+flowchart TD
+    I[Controlled request intake] --> C{Classify request}
+    C -->|Data subject| P[Privacy-rights procedure]
+    C -->|Merchant or dispute| M[Contract, tenant authority and dispute procedure]
+    C -->|Government, court or emergency| V[Authenticate requester and validate service]
+    V --> L{Counsel: valid authority, jurisdiction, scope and notice?}
+    L -->|Invalid or excessive| N[Reject, redirect, challenge or narrow]
+    L -->|Valid| H[Scoped preservation or legal hold]
+    H --> E[Authorized collection from named authoritative sources]
+    E --> R[Review, minimize, redact, inventory and checksum]
+    R --> A[Required legal/privacy/two-person approval]
+    A --> D[Secure delivery and receipt evidence]
+    D --> U[User notice now or calendared after restriction]
+    U --> X[Release hold, dispose working copies and close case]
+

@@ -1,0 +1,33 @@
+{
+  "format": {
+    "args": [
+      "-l",
+      "model.go",
+      "service.go",
+      "http.go",
+      "service_test.go",
+      "contract_test.go"
+    ],
+    "exitCode": 0,
+    "output": "",
+    "stderr": ""
+  },
+  "vet": {
+    "args": [
+      "vet",
+      "./..."
+    ],
+    "exitCode": 0,
+    "output": "",
+    "stderr": ""
+  },
+  "modules": {
+    "args": [
+      "mod",
+      "verify"
+    ],
+    "exitCode": 0,
+    "output": "all modules verified\n",
+    "stderr": ""
+  }
+}

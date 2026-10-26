@@ -1,0 +1,54 @@
+{
+  "status": "PASS_LOCAL_BROWSER_COMPONENT_CHECKS",
+  "checkedAt": "2026-10-11T12:38:19.752Z",
+  "browser": "155.0.8059.39",
+  "javaScriptEnabled": false,
+  "checks": [
+    "keyboard first focus is skip link",
+    "390px public: no horizontal page overflow",
+    "390px public: primary controls at least 48 CSS px high",
+    "390px public: decorative logo not compressed or vertically clipped",
+    "preview excludes the private date and customer",
+    "conversation provenance is explicit",
+    "390px details: no horizontal page overflow",
+    "390px details: primary controls at least 48 CSS px high",
+    "390px details: decorative logo not compressed or vertically clipped",
+    "edited review values visible",
+    "back-to-edit retains input",
+    "390px review: no horizontal page overflow",
+    "390px review: primary controls at least 48 CSS px high",
+    "390px review: decorative logo not compressed or vertically clipped",
+    "instant flow reaches synthetic confirmation",
+    "no payment or real appointment claim",
+    "custom details appear before submission",
+    "custom flow is request, not confirmation",
+    "200% root font simulation applied",
+    "320px public at simulated 200% root text: no horizontal page overflow",
+    "320px public at simulated 200% root text: primary controls at least 48 CSS px high",
+    "320px public at simulated 200% root text: decorative logo not compressed or vertically clipped",
+    "320px details at simulated 200% root text: no horizontal page overflow",
+    "320px details at simulated 200% root text: primary controls at least 48 CSS px high",
+    "320px details at simulated 200% root text: decorative logo not compressed or vertically clipped",
+    "no third-party network requests"
+  ],
+  "outsideRequests": [],
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "rootFontScale": 2
+    }
+  ],
+  "notVerified": [
+    "Physical Android or iOS device",
+    "TalkBack or screen reader",
+    "Actual OS font scale or browser zoom",
+    "Weak mobile network",
+    "Full WCAG conformance",
+    "Real customer usability"
+  ]
+}

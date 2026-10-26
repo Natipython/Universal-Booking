@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "syntheticOnly": true,
+  "referenceDate": "2030-01-15",
+  "timezone": "Africa/Addis_Ababa",
+  "clockConvention": "international-24h",
+  "utcOffsetMinutes": 180,
+  "currency": "ETB",
+  "currencyExponent": 2,
+  "organizations": [
+    {"id": "demo-org-a", "name": "Demo Light Studio"},
+    {"id": "demo-org-b", "name": "Demo River Studio"}
+  ],
+  "operations": [
+    {"organizationId": "demo-org-a", "id": "studio", "name": "Studio sessions"},
+    {"organizationId": "demo-org-a", "id": "events", "name": "Event consultations"},
+    {"organizationId": "demo-org-b", "id": "studio", "name": "Studio sessions"}
+  ],
+  "services": [
+    {"organizationId": "demo-org-a", "operationId": "studio", "id": "portrait", "name": "Portrait session", "durationMinutes": 60, "priceMinor": 200000, "resourceId": "studio-room"},
+    {"organizationId": "demo-org-a", "operationId": "studio", "id": "birthday", "name": "Birthday photos", "durationMinutes": 90, "priceMinor": 350000, "resourceId": "studio-room"},
+    {"organizationId": "demo-org-a", "operationId": "events", "id": "consultation", "name": "Event consultation", "durationMinutes": 30, "priceMinor": 50000, "resourceId": "consultation-room"},
+    {"organizationId": "demo-org-b", "operationId": "studio", "id": "portrait", "name": "Portrait session", "durationMinutes": 45, "priceMinor": 120000, "resourceId": "studio-room"}
+  ],
+  "notice": "All businesses, customer labels, dates and prices are invented test data. No real contacts, money, authentication, booking server, messaging or calling."
+}

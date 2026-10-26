@@ -1,0 +1,14 @@
+{
+  "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/01-empty-store-synthetic.sqlite",
+  "sha256": "553626070520f215f6d50419ad3b4edc21cd4e2e4cdbe4e447dcd39b5c3c4550",
+  "quickCheck": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "bookings": [],
+  "outbox": [],
+  "audit": [],
+  "drafts": [],
+  "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+}

@@ -1,0 +1,25 @@
+flowchart TB
+    Android[Ubi Business Android\nFlutter / Dart]
+    AAdapter[Android adapters\nKotlin / Java]
+    Apple[Future iOS\nFlutter / Dart]
+    IAdapter[Apple adapters\nSwift]
+    Web[Customer + business + ops web\nReact / TypeScript + HTML/CSS]
+    API[Modular API + workers\nGo]
+    DB[(PostgreSQL / SQL)]
+    Native[Measured native component\nRust or C/C++]
+    ABI[Small versioned C ABI]
+    Providers[Official provider SDKs / APIs]
+
+    Android --> API
+    Apple --> API
+    Web --> API
+    API --> DB
+    Android --> AAdapter
+    Apple --> IAdapter
+    AAdapter --> Providers
+    IAdapter --> Providers
+    Android --> ABI
+    Apple --> ABI
+    ABI --> Native
+    API -. exceptional isolated use .-> Native
+

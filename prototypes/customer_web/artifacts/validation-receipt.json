@@ -1,0 +1,1025 @@
+{
+  "status": "PASS_LOCAL_COMPONENT_CHECKS",
+  "checkedAt": "2026-10-11T12:38:21.270Z",
+  "scope": "WB-04 local synthetic component only; not acceptance-scenario or release approval",
+  "sourceDigest": "f12634708055d2daa1546ad207771d8aa0f1799439ca94ab82d88be86a019d8e",
+  "sourceUnchangedDuringValidation": true,
+  "digestScope": [
+    ".tooling/api-validation/package-lock.json",
+    ".tooling/build-customer-contract.mjs",
+    ".tooling/postman-runtime/package-lock.json",
+    ".tooling/test-customer-browser.mjs",
+    ".tooling/validate-customer-v0.mjs",
+    "prototypes/booking_integrity/go.mod",
+    "prototypes/booking_integrity/go.sum",
+    "prototypes/booking_integrity/http.go",
+    "prototypes/booking_integrity/model.go",
+    "prototypes/booking_integrity/schema.sql",
+    "prototypes/booking_integrity/service.go",
+    "prototypes/customer_web/CONTRACT.md",
+    "prototypes/customer_web/README.md",
+    "prototypes/customer_web/app.go",
+    "prototypes/customer_web/app_test.go",
+    "prototypes/customer_web/cmd/demo/main.go",
+    "prototypes/customer_web/database.go",
+    "prototypes/customer_web/go.mod",
+    "prototypes/customer_web/go.sum",
+    "prototypes/customer_web/openapi.json",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/.resources/definition.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/commit-reviewed-demo.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/confirmed-outcome.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/custom-preview.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/custom-summary.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/edit-context.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/edit-custom.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/invalid-session-cookie.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/public-again.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/public-page.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/redeem-custom.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/redeem.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/reject-forged-CSRF.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/request-not-confirmation.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/retry-same-review.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/review-before-commit.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/review-custom.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/safe-preview.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/save-edited-review.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/send-custom-request.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/start-custom.request.yaml",
+    "prototypes/customer_web/postman/collections/ubi-customer-v0/start-instant.request.yaml",
+    "prototypes/customer_web/ui.css",
+    "prototypes/customer_web/views.html",
+    "prototypes/fixtures/booking-v0.json"
+  ],
+  "tools": {
+    "go": "go version go1.27.1 linux/amd64",
+    "postgres": "postgres (PostgreSQL) 18.6 (Ubuntu 18.6-0ubuntu0.26.04.1)",
+    "postman": "1.69.0",
+    "chromium": "155.0.8059.39"
+  },
+  "staticChecksPassed": true,
+  "authenticatedPostmanGovernanceReview": false,
+  "openapi": {
+    "status": "PASS",
+    "validator": "@apidevtools/swagger-parser",
+    "openapi": "3.1.0"
+  },
+  "postman": {
+    "specLintExitCode": 0,
+    "specViolations": 0,
+    "collectionLintExitCode": 0,
+    "collectionDiagnostics": {
+      "diagnostics": [],
+      "errorCount": 0,
+      "warningCount": 0,
+      "filesScanned": 21,
+      "elapsedMs": 75
+    },
+    "requests": [
+      {
+        "executed": 21,
+        "failed": 0
+      },
+      {
+        "executed": 21,
+        "failed": 0
+      },
+      {
+        "executed": 21,
+        "failed": 0
+      }
+    ],
+    "assertions": [
+      {
+        "executed": 109,
+        "failed": 0
+      },
+      {
+        "executed": 109,
+        "failed": 0
+      },
+      {
+        "executed": 109,
+        "failed": 0
+      }
+    ],
+    "guards": [
+      {
+        "executed": 21,
+        "failed": 0
+      },
+      {
+        "executed": 21,
+        "failed": 0
+      },
+      {
+        "executed": 21,
+        "failed": 0
+      }
+    ]
+  },
+  "tests": {
+    "exitCode": 0,
+    "repeatCount": 3,
+    "distinctTopLevel": 22,
+    "distinctCasesIncludingSubtests": 67,
+    "caseResults": 201,
+    "passed": 201,
+    "failed": 0,
+    "skipped": 0,
+    "cases": [
+      {
+        "name": "TestLoopbackAndDisposableBoundary",
+        "result": "pass"
+      },
+      {
+        "name": "TestCrawlerPreviewAndHeadDoNotRedeem",
+        "result": "pass"
+      },
+      {
+        "name": "TestGrantDigestsRedemptionRetryAndForwarding",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnusedForwardedLinkIsNotIdentityVerification",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/unknown",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-missing-metadata",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-cross-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-same-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-destination",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-bad-csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/fetch-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/host",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/extra-authority",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/media",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/query",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/oversized",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-cookie",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives",
+        "result": "pass"
+      },
+      {
+        "name": "TestPrivateNoReferrerNavigationStillRequiresBoundCSRF",
+        "result": "pass"
+      },
+      {
+        "name": "TestEditsReviewAndInstantOutcome",
+        "result": "pass"
+      },
+      {
+        "name": "TestCustomRequestIsNotReservationAndRetainsDetails",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/calendar",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/clock",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/date",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/time",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/customer",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/xss",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/stale-draft",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/old-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/foreign-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/capacity",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/price",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/not-committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/wrong-price",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry",
+        "result": "pass"
+      },
+      {
+        "name": "TestConcurrentSubmissionReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestActualLostWebResponseReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestTenantBoundReviewsAndActualSQLReceiptScope",
+        "result": "pass"
+      },
+      {
+        "name": "TestCookiesSecurityHeadersAndNoScriptAssets",
+        "result": "pass"
+      },
+      {
+        "name": "TestProcessRestartFailsClosedRatherThanRestoringIdentity",
+        "result": "pass"
+      },
+      {
+        "name": "TestSavedPostmanCustomerContract",
+        "result": "pass"
+      },
+      {
+        "name": "TestBrowserNoJavaScriptAndNarrowLargeTextFlow",
+        "result": "pass"
+      },
+      {
+        "name": "TestPayloadBudgets",
+        "result": "pass"
+      },
+      {
+        "name": "TestLoopbackAndDisposableBoundary",
+        "result": "pass"
+      },
+      {
+        "name": "TestCrawlerPreviewAndHeadDoNotRedeem",
+        "result": "pass"
+      },
+      {
+        "name": "TestGrantDigestsRedemptionRetryAndForwarding",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnusedForwardedLinkIsNotIdentityVerification",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/unknown",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-missing-metadata",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-cross-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-same-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-destination",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-bad-csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/fetch-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/host",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/extra-authority",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/media",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/query",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/oversized",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-cookie",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives",
+        "result": "pass"
+      },
+      {
+        "name": "TestPrivateNoReferrerNavigationStillRequiresBoundCSRF",
+        "result": "pass"
+      },
+      {
+        "name": "TestEditsReviewAndInstantOutcome",
+        "result": "pass"
+      },
+      {
+        "name": "TestCustomRequestIsNotReservationAndRetainsDetails",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/calendar",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/clock",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/date",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/time",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/customer",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/xss",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/stale-draft",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/old-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/foreign-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/capacity",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/price",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/not-committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/wrong-price",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry",
+        "result": "pass"
+      },
+      {
+        "name": "TestConcurrentSubmissionReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestActualLostWebResponseReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestTenantBoundReviewsAndActualSQLReceiptScope",
+        "result": "pass"
+      },
+      {
+        "name": "TestCookiesSecurityHeadersAndNoScriptAssets",
+        "result": "pass"
+      },
+      {
+        "name": "TestProcessRestartFailsClosedRatherThanRestoringIdentity",
+        "result": "pass"
+      },
+      {
+        "name": "TestSavedPostmanCustomerContract",
+        "result": "pass"
+      },
+      {
+        "name": "TestBrowserNoJavaScriptAndNarrowLargeTextFlow",
+        "result": "pass"
+      },
+      {
+        "name": "TestPayloadBudgets",
+        "result": "pass"
+      },
+      {
+        "name": "TestLoopbackAndDisposableBoundary",
+        "result": "pass"
+      },
+      {
+        "name": "TestCrawlerPreviewAndHeadDoNotRedeem",
+        "result": "pass"
+      },
+      {
+        "name": "TestGrantDigestsRedemptionRetryAndForwarding",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnusedForwardedLinkIsNotIdentityVerification",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/unknown",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnavailableGrantsHaveGenericPreviewAndDenial",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/revoked",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/purpose",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/scope",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption/mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestRevocationAndExpiryCheckedAfterRedemption",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-origin",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-missing-metadata",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-cross-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-same-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-mode",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-wrong-destination",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/null-origin-bad-csrf",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/fetch-site",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/host",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/extra-authority",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/missing",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/media",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/query",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/oversized",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives/duplicate-cookie",
+        "result": "pass"
+      },
+      {
+        "name": "TestFormProtocolAndCSRFNegatives",
+        "result": "pass"
+      },
+      {
+        "name": "TestPrivateNoReferrerNavigationStillRequiresBoundCSRF",
+        "result": "pass"
+      },
+      {
+        "name": "TestEditsReviewAndInstantOutcome",
+        "result": "pass"
+      },
+      {
+        "name": "TestCustomRequestIsNotReservationAndRetainsDetails",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/calendar",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/clock",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/date",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/time",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/customer",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput/xss",
+        "result": "pass"
+      },
+      {
+        "name": "TestInvalidDateClockAndEscapingRetainSafeInput",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/stale-draft",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/old-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/foreign-review",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit/expired",
+        "result": "pass"
+      },
+      {
+        "name": "TestStaleForeignAndExpiredReviewCannotCommit",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/capacity",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft/price",
+        "result": "pass"
+      },
+      {
+        "name": "TestCapacityAndChangedServicePreserveDraft",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/not-committed",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry/wrong-price",
+        "result": "pass"
+      },
+      {
+        "name": "TestUnknownOutcomeRecoveryNeverCreatesAfterReviewExpiry",
+        "result": "pass"
+      },
+      {
+        "name": "TestConcurrentSubmissionReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestActualLostWebResponseReplaysOneBooking",
+        "result": "pass"
+      },
+      {
+        "name": "TestTenantBoundReviewsAndActualSQLReceiptScope",
+        "result": "pass"
+      },
+      {
+        "name": "TestCookiesSecurityHeadersAndNoScriptAssets",
+        "result": "pass"
+      },
+      {
+        "name": "TestProcessRestartFailsClosedRatherThanRestoringIdentity",
+        "result": "pass"
+      },
+      {
+        "name": "TestSavedPostmanCustomerContract",
+        "result": "pass"
+      },
+      {
+        "name": "TestBrowserNoJavaScriptAndNarrowLargeTextFlow",
+        "result": "pass"
+      },
+      {
+        "name": "TestPayloadBudgets",
+        "result": "pass"
+      }
+    ]
+  },
+  "cluster": {
+    "existing_database_accepted": false,
+    "new_private_temporary_cluster": true,
+    "server_stopped": true,
+    "synthetic_only": true,
+    "tcp_enabled": false,
+    "temporary_files_removed": true
+  },
+  "browser": {
+    "status": "PASS_LOCAL_BROWSER_COMPONENT_CHECKS",
+    "checkedAt": "2026-10-11T12:38:19.752Z",
+    "browser": "155.0.8059.39",
+    "javaScriptEnabled": false,
+    "checks": [
+      "keyboard first focus is skip link",
+      "390px public: no horizontal page overflow",
+      "390px public: primary controls at least 48 CSS px high",
+      "390px public: decorative logo not compressed or vertically clipped",
+      "preview excludes the private date and customer",
+      "conversation provenance is explicit",
+      "390px details: no horizontal page overflow",
+      "390px details: primary controls at least 48 CSS px high",
+      "390px details: decorative logo not compressed or vertically clipped",
+      "edited review values visible",
+      "back-to-edit retains input",
+      "390px review: no horizontal page overflow",
+      "390px review: primary controls at least 48 CSS px high",
+      "390px review: decorative logo not compressed or vertically clipped",
+      "instant flow reaches synthetic confirmation",
+      "no payment or real appointment claim",
+      "custom details appear before submission",
+      "custom flow is request, not confirmation",
+      "200% root font simulation applied",
+      "320px public at simulated 200% root text: no horizontal page overflow",
+      "320px public at simulated 200% root text: primary controls at least 48 CSS px high",
+      "320px public at simulated 200% root text: decorative logo not compressed or vertically clipped",
+      "320px details at simulated 200% root text: no horizontal page overflow",
+      "320px details at simulated 200% root text: primary controls at least 48 CSS px high",
+      "320px details at simulated 200% root text: decorative logo not compressed or vertically clipped",
+      "no third-party network requests"
+    ],
+    "outsideRequests": [],
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 700,
+        "rootFontScale": 2
+      }
+    ],
+    "notVerified": [
+      "Physical Android or iOS device",
+      "TalkBack or screen reader",
+      "Actual OS font scale or browser zoom",
+      "Weak mobile network",
+      "Full WCAG conformance",
+      "Real customer usability"
+    ]
+  },
+  "payload": {
+    "bytes": {
+      "css": 4129,
+      "details_html": 2855,
+      "outcome_html": 1792,
+      "preview_html": 1680,
+      "public_html": 2138,
+      "review_html": 2086
+    },
+    "external_asset_requests_required": 0,
+    "javascript_bytes": 0,
+    "scope": "Uncompressed loopback body bytes only; not network-transfer size or speed"
+  },
+  "notVerified": [
+    "All 28 full acceptance scenarios",
+    "G7/G8/G9",
+    "Android/server integration or APK",
+    "Physical Android 11+/4 GB speed/offline behavior",
+    "Weak-network N1 or Core Web Vitals",
+    "Real-user research and localization/accessibility acceptance",
+    "Persistent production grant/session/recovery storage",
+    "Customer identity, public TLS/domain/native deep links",
+    "Real social inboxes, messages, calls, notifications or money",
+    "Production schema migrations, restore, sustained load or independent review",
+    "Existing WB-03 application/problem+json spec-linter disagreement"
+  ]
+}

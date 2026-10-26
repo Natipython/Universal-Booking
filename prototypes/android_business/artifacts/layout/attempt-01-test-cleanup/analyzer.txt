@@ -1,0 +1,11 @@
+
+┌─────────────────────────────────────────────────────────┐
+│ A new version of Flutter is available!                  │
+│                                                         │
+│ To update to the latest version, run "flutter upgrade". │
+└─────────────────────────────────────────────────────────┘
+Analyzing android_business...                                   
+
+   info • Statements in an if should be enclosed in a block. Try wrapping the statement in a block • test/interface_test.dart:201:13 • curly_braces_in_flow_control_structures
+
+1 issue found. (ran in 5.9s)

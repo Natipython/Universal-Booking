@@ -1,0 +1,63 @@
+flowchart TB
+    subgraph Devices[User-controlled devices]
+        Android[Ubi Business Android]
+        CustomerWeb[Customer web]
+        BusinessWeb[Business desktop web]
+        OpsWeb[Ubi operations console]
+    end
+
+    subgraph Edge[Public edge]
+        DNS[DNS / TLS / CDN / protection]
+        WebDelivery[Web assets and server-rendered routes]
+        APIEdge[API and link ingress]
+    end
+
+    subgraph Runtime[Ubi application runtime]
+        App[Modular application/API]
+        Worker[Background workers / schedulers]
+        Realtime[Future realtime messaging gateway]
+    end
+
+    subgraph Data[Ubi-controlled data plane]
+        DB[(Authoritative relational DB)]
+        Object[(Protected object storage)]
+        Cache[(Optional cache / rate coordination)]
+        Queue[(Optional queue/broker)]
+        Analytics[(Governed analytics/reporting store)]
+        Observability[(Logs / metrics / traces / crash data)]
+    end
+
+    subgraph External[External provider boundaries]
+        Identity[Identity / OTP]
+        Channels[Official messaging channels]
+        Payment[Licensed payment / mobile money]
+        Notify[Push / SMS / email]
+        MapMedia[Maps and optional media services]
+    end
+
+    Android --> DNS
+    CustomerWeb --> DNS
+    BusinessWeb --> DNS
+    OpsWeb --> DNS
+    DNS --> WebDelivery
+    DNS --> APIEdge
+    WebDelivery --> App
+    APIEdge --> App
+    App <--> DB
+    App <--> Cache
+    App --> Object
+    App --> Worker
+    Worker <--> DB
+    Worker <--> Object
+    Worker <--> Queue
+    Worker --> Analytics
+    App --> Observability
+    Worker --> Observability
+    App <--> Identity
+    Worker <--> Channels
+    Worker <--> Payment
+    Worker <--> Notify
+    Worker <--> MapMedia
+    Realtime <--> App
+    Realtime <--> Cache
+

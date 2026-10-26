@@ -1,0 +1,20 @@
+flowchart LR
+    Customer[Customer device / approved payment channel]
+    Merchant[Merchant payment account]
+    UbiAPI[Ubi booking/payment API]
+    PayDomain[Payments & Reconciliation]
+    Outbox[Payment process/outbox]
+    Adapter[Provider-specific adapter]
+    Provider[Licensed payment/mobile-money provider]
+    Webhook[Verified provider ingress]
+    Recon[Reconciliation and operations]
+
+    Customer --> UbiAPI
+    UbiAPI --> PayDomain
+    PayDomain --> Outbox
+    Outbox --> Adapter
+    Adapter <--> Provider
+    Provider --> Webhook
+    Webhook --> PayDomain
+    PayDomain --> Recon
+    Provider --> Merchant

@@ -1,0 +1,15 @@
+flowchart TD
+    Observe[Observe current call, walk-in, message and notebook workflow] --> Qualify[Qualify merchant, owner, device and pilot fit]
+    Qualify --> Configure[Template-led minimal setup + upcoming booking reconciliation]
+    Configure --> Practice[Demo: manual, customer, offline, conflict, payment states]
+    Practice --> Activate[Owner preview and controlled activation]
+    Activate --> Shadow[Short shadow period + named support]
+    Shadow --> Review{Accurate value with acceptable help/cost?}
+    Review -- Improve --> Configure
+    Review -- Continue --> Operate[Normal pilot operations]
+    Review -- Stop --> Exit[Export, obligations, disconnect, retention/deletion]
+    Operate --> Case[One support case: verify, classify, safe workaround]
+    Case --> Escalate[Product / incident / integration / payment / privacy runbook]
+    Escalate --> Verify[Reconcile, verify, revoke access, learn]
+    Verify --> Operate
+

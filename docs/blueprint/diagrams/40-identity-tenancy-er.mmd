@@ -1,0 +1,21 @@
+erDiagram
+    PERSON ||--o| ACCOUNT : may_authenticate_as
+    ACCOUNT ||--o{ CONTACT_METHOD : verifies
+    ACCOUNT ||--o{ SESSION : owns
+    ACCOUNT ||--o{ DEVICE_INSTALLATION : uses
+
+    ORGANIZATION ||--o{ BRAND : operates
+    ORGANIZATION ||--o{ BRANCH : has
+    ORGANIZATION ||--o{ BOOKING_OPERATION : configures
+    BRAND ||--o{ BOOKING_OPERATION : presents
+    BRANCH ||--o{ BOOKING_OPERATION : hosts
+
+    ACCOUNT ||--o{ MEMBERSHIP : holds
+    ORGANIZATION ||--o{ MEMBERSHIP : grants
+    MEMBERSHIP ||--o{ ROLE_ASSIGNMENT : receives
+    ROLE ||--o{ ROLE_ASSIGNMENT : assigned_as
+    ROLE ||--o{ ROLE_CAPABILITY : bundles
+    CAPABILITY ||--o{ ROLE_CAPABILITY : included_in
+    MEMBERSHIP ||--o{ CAPABILITY_GRANT : overrides_or_extends
+    MEMBERSHIP ||--o{ APPROVAL_REQUEST : requests_or_approves
+

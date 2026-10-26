@@ -1,0 +1,99 @@
+{
+  "database": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/artifacts/android-native/2026-10-15-sm-g975w/20-new-item-after-cancellation-synthetic.sqlite",
+  "sha256": "5c8d46c0a59bb835fbfda0318b7663f7e6715a204e9351f4bee979b3841af158",
+  "quickCheck": [
+    {
+      "quick_check": "ok"
+    }
+  ],
+  "bookings": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "id": "v0_e534da84679c5686f3597748728ec2e8",
+      "service_id": "portrait",
+      "customer_label": "Demo Guest 01",
+      "source": "Call",
+      "start_ms": 1894690800000,
+      "end_ms": 1894694400000,
+      "price_minor": 200000,
+      "status": "cancelled",
+      "revision": 4
+    },
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "id": "v0_61938851bf0a25ba2afba51be8352baa",
+      "service_id": "portrait",
+      "customer_label": "Demo Guest 02",
+      "source": "Call",
+      "start_ms": 1894690800000,
+      "end_ms": 1894694400000,
+      "price_minor": 200000,
+      "status": "pending",
+      "revision": 1
+    }
+  ],
+  "outbox": [
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_369afdbe7f0a817ce950dccf2b41758a",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "state": "cancelled"
+    },
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_88cf856cdef8a20d6b21020ca3beeebf",
+      "booking_id": "v0_61938851bf0a25ba2afba51be8352baa",
+      "state": "pending"
+    },
+    {
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "command_id": "v0_dd347b0f88c2738d47764085847386fd",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "state": "cancelled"
+    }
+  ],
+  "audit": [
+    {
+      "event_id": 1,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_saved"
+    },
+    {
+      "event_id": 2,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "simulated_conflict"
+    },
+    {
+      "event_id": 3,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_revised"
+    },
+    {
+      "event_id": 4,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_e534da84679c5686f3597748728ec2e8",
+      "action": "local_intent_cancelled"
+    },
+    {
+      "event_id": 5,
+      "organization_id": "demo-org-a",
+      "operation_id": "studio",
+      "booking_id": "v0_61938851bf0a25ba2afba51be8352baa",
+      "action": "local_intent_saved"
+    }
+  ],
+  "drafts": [],
+  "note": "Snapshot while app idle; no power-loss or concurrent-write durability guarantee"
+}

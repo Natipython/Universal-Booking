@@ -1,0 +1,13 @@
+{
+  "bytes": {
+    "css": 4129,
+    "details_html": 2855,
+    "outcome_html": 1792,
+    "preview_html": 1680,
+    "public_html": 2138,
+    "review_html": 2086
+  },
+  "external_asset_requests_required": 0,
+  "javascript_bytes": 0,
+  "scope": "Uncompressed loopback body bytes only; not network-transfer size or speed"
+}

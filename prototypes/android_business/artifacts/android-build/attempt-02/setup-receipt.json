@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-10-11T14:19:47.682Z",
+  "status": "PASS_REQUIRED_TOOL_SETUP",
+  "scope": "Project-local JDK/Android command-line tools, pinned downloads and setup boundary only",
+  "checksPass": true,
+  "downloads": [
+    {
+      "archive": ".tooling/android-downloads/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+      "source": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+      "expectedSha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+      "actualSha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+      "verified": true
+    },
+    {
+      "archive": ".tooling/android-downloads/commandlinetools-linux-15859902_latest.zip",
+      "source": "https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip",
+      "expectedSha256": "4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583",
+      "actualSha256": "4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583",
+      "verified": true
+    }
+  ],
+  "java": {
+    "exitCode": 0,
+    "output": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)\n",
+    "error": null
+  },
+  "sdkmanager": {
+    "exitCode": 0,
+    "output": "22.0\n\nWARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Use Android CLI instead.\nThe 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.\nTo learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)\n\n",
+    "error": null
+  },
+  "packages": [
+    {
+      "path": "platform-tools",
+      "installed": true,
+      "properties": {
+        "Pkg.UserSrc": "false",
+        "Pkg.Revision": "37.0.1"
+      },
+      "expected": {},
+      "versionMatches": true
+    },
+    {
+      "path": "platforms/android-36",
+      "installed": true,
+      "properties": {
+        "Pkg.Desc": "Android SDK Platform 16",
+        "Pkg.UserSrc": "false",
+        "Platform.Version": "16",
+        "Platform.CodeName": "",
+        "Pkg.Revision": "2",
+        "AndroidVersion.ApiLevel": "36",
+        "AndroidVersion.ExtensionLevel": "17",
+        "AndroidVersion.IsBaseSdk": "true",
+        "Layoutlib.Api": "15",
+        "Layoutlib.Revision": "1",
+        "Platform.MinToolsRev": "22"
+      },
+      "expected": {
+        "AndroidVersion.ApiLevel": "36"
+      },
+      "versionMatches": true
+    },
+    {
+      "path": "build-tools/36.0.0",
+      "installed": true,
+      "properties": {
+        "Pkg.UserSrc": "false",
+        "Pkg.Revision": "36.0.0"
+      },
+      "expected": {
+        "Pkg.Revision": "36.0.0"
+      },
+      "versionMatches": true
+    },
+    {
+      "path": "ndk/28.2.13676358",
+      "installed": true,
+      "properties": {
+        "Pkg.Desc": "Android NDK",
+        "Pkg.Revision": "28.2.13676358",
+        "Pkg.BaseRevision": "28.2.13676358",
+        "Pkg.ReleaseName": "r28c"
+      },
+      "expected": {
+        "Pkg.Revision": "28.2.13676358"
+      },
+      "versionMatches": true
+    }
+  ],
+  "wrapper": {
+    "sha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+    "verified": true,
+    "version": "9.3.1"
+  },
+  "sdkAuthorization": {
+    "scope": "Explicit founder acceptance of linked Android SDK agreement and local tool installation/synthetic APK build",
+    "agreement": "https://developer.android.com/studio",
+    "agreementDate": "2026-04-28",
+    "additionalAgreementsAuthorized": false,
+    "stablePackageAgreement": {
+      "id": "android-sdk-license",
+      "date": "2019-01-16",
+      "status": "EXPLICITLY_AUTHORIZED",
+      "authorizedOn": "2026-10-11",
+      "authorization": "Yes, accept that stable SDK agreement and continue the local test build.",
+      "officialMetadata": "https://dl.google.com/android/repository/repository2-3.xml",
+      "reviewText": ".tooling/android-downloads/android-sdk-license-2019.txt",
+      "reviewTextSha256": "1f8729233617b193fd619213792ae16a41b95d2bbbf525dfe66998252ba68b16"
+    },
+    "telemetryAuthorized": false,
+    "publicationOrDeviceInstallationAuthorized": false
+  },
+  "sdkManagerLicenseFile": {
+    "path": ".tooling/android-sdk/licenses/android-sdk-license",
+    "sha256": "c43fa37686457c3f18caa3607945f4ec52a9d1beaaad8117e50dc4e863270c85"
+  },
+  "stableAgreementAcceptedByThisRunner": false,
+  "buildAttemptedByThisRunner": false,
+  "deviceAccessAttemptedByThisRunner": false,
+  "apkPresent": false,
+  "hostReceipt": {
+    "checkedAt": "2026-10-11T13:36:29.127Z",
+    "status": "PASS",
+    "scope": "Synthetic V0 local SQLite/domain/UI tests on Linux Flutter host",
+    "sourceDigest": "6284f3222da750236aaca55095f3692dc359b616a9f784ff8c5359cda41e5c93",
+    "sourcesChangedDuringRun": false,
+    "supportedBaseline": {
+      "android": "11+",
+      "minSdk": 30,
+      "ramGb": 4,
+      "configurationChecked": true,
+      "ramEnforcedAtRuntime": false,
+      "physicalDeviceVerified": false
+    },
+    "toolchain": {
+      "frameworkVersion": "3.47.1",
+      "channel": "stable",
+      "repositoryUrl": "https://github.com/flutter/flutter.git",
+      "frameworkRevision": "6655482ec06e547f90abf8ae7590466f4415978d",
+      "frameworkCommitDate": "2026-08-19 10:07:23 -0700",
+      "engineRevision": "5d531788691ec3404cac0cee66ead4007b177363",
+      "engineCommitDate": "2026-08-18 23:36:01.000Z",
+      "engineContentHash": "11d79658c444477b06513d32b52c8c4ccb7276b0",
+      "engineBuildDate": "2026-08-19 06:19:20.672",
+      "dartSdkVersion": "3.13.1",
+      "devToolsVersion": "2.60.0",
+      "flutterVersion": "3.47.1",
+      "flutterRoot": "/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/flutter"
+    },
+    "analyzerExitCode": 0,
+    "testExitCode": 0,
+    "testsRun": 26,
+    "passed": 26,
+    "tests": [
+      {
+        "name": "fixtures are explicitly synthetic, two tenants, two operations in one tenant",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "atomic local save produces pending booking, command and history; never confirmed",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "same command and input return one logical item",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "same command with changed input fails without rewriting old intent",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "outbox insert failure rolls back booking and audit; draft remains",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "local overlap rejects without losing draft; adjacent interval succeeds",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "concurrent local contenders serialize and create one pending item",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "tenant scope prevents reads, history and changes of another tenant item",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "operation scope is independent inside the same organization",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "scoped composite FK refuses a cross-operation service",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "draft persists across close/reopen, scoped to one operation",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "simulated conflict retains details and is idempotent",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "local revision preserves command payload/history and one booking ID",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "failed revision keeps the old schedule; stale revision is rejected",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "cancellation retains history and removes pending work; cannot be resurrected",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "invalid scope, real-looking label and closing-hours overflow cannot save",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "exact money and fixed Ethiopia prototype timezone boundaries",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "customer-safe demo boundary and working manual save/details path",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "double tap saves one logical local intent",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "failed transaction keeps review/input and never shows a saved item",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "simulated conflict is explicit and retains saved details",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "committed SQLite item survives child-process SIGKILL without graceful close",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "switching demo tenant shows only that tenant schedule",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "home and form remain operable at 200 percent font scale",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "primary save action has a labelled minimum touch target",
+        "result": "success",
+        "skipped": false
+      },
+      {
+        "name": "capture actual Flutter home/review rendering and verify palette pairs",
+        "result": "success",
+        "skipped": false
+      }
+    ],
+    "notVerified": [
+      "APK build or Android native SQLite adapter",
+      "Physical-device startup/frames/battery/network",
+      "Actual Android process-death/background/low-storage behavior",
+      "Real auth/server sync or Go/PostgreSQL integrity",
+      "Field comprehension, TalkBack, Amharic or Ethiopian-calendar entry",
+      "Legal/provider/production readiness"
+    ]
+  },
+  "notVerified": [
+    "APK compilation and static inspection",
+    "Any Android native runtime or physical-device performance",
+    "Production signing, identity/server integration, complete acceptance scenarios or release gates"
+  ]
+}

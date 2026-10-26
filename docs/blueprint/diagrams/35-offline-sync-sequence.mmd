@@ -1,0 +1,27 @@
+sequenceDiagram
+    actor Staff
+    participant UI as Android UI
+    participant Local as Local DB / command outbox
+    participant WM as Persistent sync worker
+    participant API as Sync API
+    participant Auth as Current authorization
+    participant Domain as Owning domain module
+    participant Server as Authoritative DB / idempotency / outbox
+
+    Staff->>UI: Save eligible offline action
+    UI->>Local: Atomic draft/projection + immutable command
+    Local-->>UI: Durable client command/resource ID
+    UI-->>Staff: Saved on this phone / pending
+
+    WM->>Local: Claim pending command batch
+    WM->>API: Submit commands with stable IDs/base versions
+    API->>Auth: Reauthenticate and authorize each command
+    Auth-->>API: Current decision
+    API->>Domain: Invoke typed idempotent command
+    Domain->>Server: Validate and commit state/audit/outbox/result
+    Server-->>Domain: Accepted, duplicate, conflict or rejected
+    Domain-->>API: Typed result + authoritative projection/version
+    API-->>WM: Per-command outcomes + change cursor/page
+    WM->>Local: Atomic results/projections/tombstones/cursor
+    Local-->>UI: Observed local state updates
+    UI-->>Staff: Synchronized or needs attention

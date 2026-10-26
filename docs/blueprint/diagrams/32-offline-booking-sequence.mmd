@@ -1,0 +1,25 @@
+sequenceDiagram
+    actor Staff
+    participant App as Android app
+    participant Local as Local store/outbox
+    participant API as Ubi API
+    participant Auth as Authority
+    participant Bkg as Booking workflow
+    participant Sch as Scheduling
+    participant DB as Authoritative DB/outbox
+
+    Staff->>App: Review and save booking
+    App->>Local: Transactionally save draft + command
+    Local-->>App: Durable local ID / pending
+    App-->>Staff: Saved on this phone
+    App->>API: Sync command when connected
+    API->>Auth: Reauthenticate/authorize current membership
+    Auth-->>API: Allow or reject
+    API->>Bkg: Submit idempotent command
+    Bkg->>Sch: Revalidate/commit capacity
+    Sch->>DB: Atomic booking/capacity/audit/outbox commit
+    DB-->>Bkg: Committed or conflict
+    Bkg-->>API: Stable result
+    API-->>App: Accepted/conflict/rejected + version
+    App->>Local: Converge projection/result
+    App-->>Staff: Synchronized or action required

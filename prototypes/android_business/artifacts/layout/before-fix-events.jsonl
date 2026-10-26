@@ -1,0 +1,27 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":59009,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/assets_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/assets_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":2}
+{"suite":{"id":2,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/interface_test.dart"},"type":"suite","time":10}
+{"test":{"id":3,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/interface_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":10}
+{"count":3,"time":13,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":5720}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":5758}
+{"group":{"id":4,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":1,"line":null,"column":null,"url":null},"type":"group","time":5760}
+{"test":{"id":5,"name":"(setUpAll)","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":33,"column":3,"url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":5761}
+{"suite":{"id":6,"platform":"vm","path":"/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/repository_test.dart"},"type":"suite","time":5773}
+{"test":{"id":7,"name":"loading /run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/test/repository_test.dart","suiteID":6,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":5774}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":5900}
+{"test":{"id":8,"name":"reserved Add area / phone-sized / seeded","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":174,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":157,"root_column":7,"root_url":"file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart"},"type":"testStart","time":5902}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null}}]
+{"testID":7,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":6850}
+{"testID":8,"messageType":"print","message":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════\nThe following TestFailure was thrown running a test:\nExpected: a value less than or equal to <734.5714285714286>\n  Actual: <788.5714285714286>\n   Which: is not a value less than or equal to <734.5714285714286>\nThe primary action must reserve space below the scroll viewport, never cover booking content.\n\nWhen the exception was thrown, this was the stack:\n#4      main.<anonymous closure>.expectSeparateAreas (file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart:179:13)\n#5      main.<anonymous closure> (file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart:193:11)\n<asynchronous suspension>\n#6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)\n<asynchronous suspension>\n<asynchronous suspension>\n(elided one frame from package:stack_trace)\n\nThis was caught by the test expectation on the following line:\n  file:///run/media/n-a-t/Local%20Disk_HDD/Universal%20Booking/prototypes/android_business/test/interface_test.dart line 179\nThe test description was:\n  reserved Add area / phone-sized / seeded\n════════════════════════════════════════════════════════════════════════════════════════════════════","type":"print","time":8340}
+{"testID":8,"error":"Test failed. See exception logs above.\nThe test description was: reserved Add area / phone-sized / seeded","stackTrace":"","isFailure":false,"type":"error","time":8346}
+{"testID":8,"result":"error","skipped":false,"hidden":false,"type":"testDone","time":8354}
+{"test":{"id":9,"name":"(tearDownAll)","suiteID":2,"groupIDs":[4],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":8355}
+{"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":8360}
+{"success":false,"type":"done","time":8394}

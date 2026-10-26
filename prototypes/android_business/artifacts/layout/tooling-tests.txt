@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: actual aapt2 minimum API label parses without a false failure
+ok 1 - actual aapt2 minimum API label parses without a false failure
+  ---
+  duration_ms: 12.791416
+  type: 'test'
+  ...
+# Subtest: badging parser preserves a changed floor rather than assuming 30
+ok 2 - badging parser preserves a changed floor rather than assuming 30
+  ---
+  duration_ms: 0.887653
+  type: 'test'
+  ...
+# Subtest: badging parser rejects missing minimum API rather than guessing it
+ok 3 - badging parser rejects missing minimum API rather than guessing it
+  ---
+  duration_ms: 1.68343
+  type: 'test'
+  ...
+# Subtest: missing/stale generated assets fail read-only checks; sync copies canonical bytes
+ok 4 - missing/stale generated assets fail read-only checks; sync copies canonical bytes
+  ---
+  duration_ms: 27.461539
+  type: 'test'
+  ...
+# Subtest: APK asset check verifies actual archived bytes and handles spaces
+ok 5 - APK asset check verifies actual archived bytes and handles spaces
+  ---
+  duration_ms: 164.525729
+  type: 'test'
+  ...
+# Subtest: APK asset check rejects missing startup data
+ok 6 - APK asset check rejects missing startup data
+  ---
+  duration_ms: 93.85367
+  type: 'test'
+  ...
+# Subtest: APK asset check rejects stale startup data
+ok 7 - APK asset check rejects stale startup data
+  ---
+  duration_ms: 88.032585
+  type: 'test'
+  ...
+# Subtest: valid structure passes, without implying executed tests
+ok 8 - valid structure passes, without implying executed tests
+  ---
+  duration_ms: 35.644534
+  type: 'test'
+  ...
+# Subtest: missing catalogue file fails
+ok 9 - missing catalogue file fails
+  ---
+  duration_ms: 9.123788
+  type: 'test'
+  ...
+# Subtest: duplicate document number and missing status fail
+ok 10 - duplicate document number and missing status fail
+  ---
+  duration_ms: 7.162533
+  type: 'test'
+  ...
+# Subtest: unclosed fence and missing diagram fail
+ok 11 - unclosed fence and missing diagram fail
+  ---
+  duration_ms: 9.504105
+  type: 'test'
+  ...
+# Subtest: longer identifier cannot falsely cover a requirement
+ok 12 - longer identifier cannot falsely cover a requirement
+  ---
+  duration_ms: 6.379177
+  type: 'test'
+  ...
+# Subtest: unknown requirement and undefined scenario fail
+ok 13 - unknown requirement and undefined scenario fail
+  ---
+  duration_ms: 5.882607
+  type: 'test'
+  ...
+# Subtest: duplicate definitions and broken local links fail
+ok 14 - duplicate definitions and broken local links fail
+  ---
+  duration_ms: 7.670299
+  type: 'test'
+  ...
+# Subtest: mixed fences inside a valid fenced block do not terminate it
+ok 15 - mixed fences inside a valid fenced block do not terminate it
+  ---
+  duration_ms: 4.05399
+  type: 'test'
+  ...
+# Subtest: existing prototype Markdown outside blueprint passes; missing target fails
+ok 16 - existing prototype Markdown outside blueprint passes; missing target fails
+  ---
+  duration_ms: 9.771533
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2315.236923

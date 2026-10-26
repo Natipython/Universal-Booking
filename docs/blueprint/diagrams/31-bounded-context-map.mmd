@@ -1,0 +1,72 @@
+flowchart LR
+    IAM[Identity & Sessions]
+    ORG[Organization & Authority]
+    PUB[Public Presence]
+    CAT[Catalog & Configuration]
+    CRM[Customer Relationships]
+    SCH[Scheduling & Capacity]
+    REQ[Request & Quotation]
+    BKG[Booking & Fulfilment]
+    CONV[Conversation & Inbox]
+    LINK[Access & Handoff Grants]
+    PAY[Payments & Reconciliation]
+    COMMS[Communications & Reminders]
+    INT[External Connections & Adapters]
+    MEDIA[Media & Files]
+    SYNC[Offline Synchronization]
+    OPS[Ubi Operations / Trust Cases]
+    PRIV[Privacy & Records Governance]
+    AUDIT[Audit & Evidence]
+    DATA[Reporting & Analytics]
+
+    IAM --> ORG
+    ORG --> CAT
+    ORG --> PUB
+    CAT --> PUB
+    CAT --> SCH
+    CRM --> REQ
+    CRM --> BKG
+    SCH <--> BKG
+    SCH <--> REQ
+    REQ --> BKG
+    CONV --> REQ
+    CONV --> BKG
+    LINK --> REQ
+    LINK --> BKG
+    BKG --> PAY
+    REQ --> PAY
+    BKG --> COMMS
+    REQ --> COMMS
+    PAY --> COMMS
+    CONV <--> INT
+    PAY <--> INT
+    COMMS <--> INT
+    CONV --> MEDIA
+    SYNC --> ORG
+    SYNC --> CAT
+    SYNC --> CRM
+    SYNC --> SCH
+    SYNC --> REQ
+    SYNC --> BKG
+    OPS --> ORG
+    OPS --> CONV
+    OPS --> PAY
+    PRIV --> MEDIA
+    PRIV --> CONV
+    PRIV --> DATA
+
+    IAM -. evidence .-> AUDIT
+    ORG -. evidence/events .-> AUDIT
+    SCH -. events .-> AUDIT
+    REQ -. events .-> AUDIT
+    BKG -. events .-> AUDIT
+    PAY -. evidence .-> AUDIT
+    CONV -. events .-> AUDIT
+
+    ORG -. governed events .-> DATA
+    CAT -. governed events .-> DATA
+    SCH -. governed events .-> DATA
+    REQ -. governed events .-> DATA
+    BKG -. governed events .-> DATA
+    PAY -. governed events .-> DATA
+    CONV -. governed events .-> DATA

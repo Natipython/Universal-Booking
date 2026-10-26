@@ -1,0 +1,6 @@
+$kind: collection
+name: 'Ubi local customer handoff checks'
+description: 'Synthetic scoped forms only; no account/cloud, real contact or token exports.'
+variables:
+  - key: base_url
+    value: 'http://127.0.0.1:1'

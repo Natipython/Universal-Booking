@@ -1,0 +1,33 @@
+$kind: http-request
+method: POST
+url: '{{base_url}}/v0/holds/{{hold_id}}/bookings'
+order: 14000
+headers:
+  - key: 'Content-Type'
+    value: 'application/json'
+  - key: 'X-Ubi-Demo-Principal'
+    value: 'demo-owner-a'
+  - key: 'Idempotency-Key'
+    value: 'postman-consume-001'
+body:
+  type: json
+  content: |-
+    {
+      "expected_version": 1
+    }
+scripts:
+  - type: beforeRequest
+    language: text/javascript
+    code: |-
+      if (!/^http:\/\/127\.0\.0\.1:\d+$/.test(pm.variables.get('base_url'))) { pm.execution.skipRequest(); throw new Error('Refusing non-loopback synthetic target'); }
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test('status 201',()=>pm.response.to.have.status(201));
+      const body=pm.response.json();
+      pm.test('synthetic marker',()=>pm.expect(body.demo_only).to.eql(true));
+      pm.test('no-store',()=>pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store'));
+      pm.test('correlation ID',()=>pm.expect(pm.response.headers.get('X-Request-ID')).to.match(/^[a-f0-9-]{36}$/));
+      pm.test('declared response schema',()=>pm.response.to.have.jsonSchema({"type":"object","additionalProperties":false,"properties":{"demo_only":{"type":"boolean","const":true},"id":{"type":"string","minLength":1,"maxLength":128},"organization_id":{"type":"string","minLength":1,"maxLength":128},"operation_id":{"type":"string","minLength":1,"maxLength":128},"version":{"type":"integer","minimum":1},"state":{"type":"string","minLength":1,"maxLength":128},"start_at":{"type":"string","format":"date-time"},"end_at":{"type":"string","format":"date-time"},"service_id":{"type":"string","minLength":1,"maxLength":128},"service_version":{"type":"integer","minimum":1},"price_minor":{"type":"integer","minimum":0},"currency":{"type":"string","const":"ETB"},"customer_label":{"type":"string","minLength":1,"maxLength":128},"source":{"type":"string","minLength":1,"maxLength":128},"expires_at":{"type":"string","format":"date-time"},"request_id":{"type":"string","minLength":1,"maxLength":128},"booking_id":{"type":"string","minLength":1,"maxLength":128}},"required":["demo_only","id","organization_id","operation_id","version","state","start_at","end_at","service_id","service_version","price_minor","currency","customer_label","source"]}));
+      pm.test('declared content type',()=>pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json'));
+      pm.test('same committed identity',()=>pm.expect(body.id).to.eql(pm.collectionVariables.get('held_booking_id')));

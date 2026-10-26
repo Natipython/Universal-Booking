@@ -1,0 +1,41 @@
+[1/1] Android SDK
+  ├─ [1/6] android-arm-profile/linux-x64                         2,351ms
+  ├─ [2/6] android-arm-release/linux-x64                         1,990ms
+  ├─ [3/6] android-arm64-profile/linux-x64                       2,977ms
+  ├─ [4/6] android-arm64-release/linux-x64                       2,140ms
+  ├─ [5/6] android-x64-profile/linux-x64                         2,504ms
+  └─ [6/6] android-x64-release/linux-x64                         2,146ms
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                            735.0s
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Unhandled exception:
+Bad state: Hash of downloaded file libsqlite3.arm.android.so is de78a2a1c47722ab165a36d29e849075e7920e925194eb8ee25f0dafab3cd01c, expected a42fa9d0f5c006d30b000d4904bc497705191c5d7330b178618546004295bb49.
+
+  Building assets for package:sqlite3 failed.
+  build.dart returned with exit code: 255.
+  To reproduce run:
+  (cd /home/n-a-t/.pub-cache/hosted/pub.dev/sqlite3-3.5.2/; /run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/flutter/bin/cache/dart-sdk/bin/dart '--packages=/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/.dart_tool/package_config.json' '/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/.dart_tool/hooks_runner/sqlite3/86c59628bd/hook.dill' '--config=/run/media/n-a-t/Local Disk_HDD/Universal Booking/prototypes/android_business/.dart_tool/hooks_runner/sqlite3/86c59628bd/input.json' )
+  stderr:
+  Unhandled exception:
+Bad state: Hash of downloaded file libsqlite3.arm.android.so is de78a2a1c47722ab165a36d29e849075e7920e925194eb8ee25f0dafab3cd01c, expected a42fa9d0f5c006d30b000d4904bc497705191c5d7330b178618546004295bb49.
+
+  stdout:
+
+
+Target build_hooks failed: Error: Building native assets failed. See the logs for more details.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command '/run/media/n-a-t/Local Disk_HDD/Universal Booking/.tooling/flutter/bin/flutter'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 12m 13s
+Gradle task assembleDebug failed with exit code 1

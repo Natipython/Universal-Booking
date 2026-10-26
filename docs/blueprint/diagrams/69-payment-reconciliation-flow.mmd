@@ -1,0 +1,14 @@
+flowchart TD
+    Evidence[Customer report / Ubi initiation / signed provider event / official query] --> Classify{Evidence level}
+    Classify -->|Report only| Reported[Reported - not verified]
+    Classify -->|Provider pending| Pending[Processing / unknown]
+    Classify -->|Authentic provider final| Match[Match payee, amount, currency, reference]
+    Match -->|Exact and policy-valid| Verified[Provider verified append-only event]
+    Match -->|Mismatch| Exception[Freeze automation + exception case]
+    Reported --> Reconcile[Official provider reconciliation]
+    Pending --> Reconcile
+    Reconcile --> Match
+    Verified --> Booking[Separate booking-policy transition]
+    Exception --> Human[Payment ops + merchant/provider/security as needed]
+    Human --> Correct[Append correction / refund / reversal / unresolved explanation]
+

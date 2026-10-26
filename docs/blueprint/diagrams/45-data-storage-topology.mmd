@@ -1,0 +1,20 @@
+flowchart LR
+    A[Android Business app] -->|Encrypted bounded projection, drafts and pending commands| L[(Local device store)]
+    A -->|Authorized API and sync| API[Ubi API and workers]
+    W[Customer web/app] -->|Public or scoped API| API
+
+    API -->|Owner transactions| PG[(Managed PostgreSQL)]
+    PG -->|Transactional outbox| P[Projectors and processors]
+    P -->|Rebuildable documents| S[(PostgreSQL or future search)]
+    P -->|Versioned safe data| C[(Optional cache / public CDN)]
+
+    API -->|Create authorized upload session| O[(Private object storage)]
+    O -->|Verified event| P
+    PG -->|Object ownership and lifecycle metadata| O
+
+    API -->|Use, do not own master keys| K[Secret manager and KMS]
+    P -->|Scoped provider credentials| K
+
+    C -. never owner truth .-> PG
+    S -. reauthorize and hydrate .-> API
+    L -. sync commands and versions .-> API

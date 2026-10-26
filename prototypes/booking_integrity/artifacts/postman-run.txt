@@ -1,0 +1,296 @@
+No authorization data found. Please use the `postman login` command.
+Refer:https://learning.postman.com/docs/postman-cli/postman-cli-options/#postman-login
+
+Running your collection...
+
+Root 848b712cdc90ac28b6658d62
+
+  GET http://127.0.0.1:45855/v0/health [200 OK, 228 B, 24 ms]
+  Pass  status 200
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+
+Root 257c4d6edb3accaecd6f81b0
+
+  POST http://127.0.0.1:45855/v0/bookings [201 Created, 602 B, 18 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+
+Root 1712a92a0c2e89092a2bbb20
+
+  POST http://127.0.0.1:45855/v0/bookings [201 Created, 602 B, 7 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  same committed identity
+
+Root 40b97c1044f530c558c8dbce
+
+  GET http://127.0.0.1:45855/v0/bookings/a3d3bf69-3bb9-48eb-8427-aab0900c5cce [200 OK, 536 B, 9 ms]
+  Pass  status 200
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  same committed identity
+
+Root a5302fd27f83aec5899977fb
+
+  GET http://127.0.0.1:45855/v0/bookings/a3d3bf69-3bb9-48eb-8427-aab0900c5cce [404 Not Found, 474 B, 4 ms]
+  Pass  status 404
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 99a4d0a0704289f7cab1d887
+
+  POST http://127.0.0.1:45855/v0/bookings [409 Conflict, 508 B, 7 ms]
+  Pass  status 409
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 6c8dbbe56b6e22eaf9eeeec3
+
+  POST http://127.0.0.1:45855/v0/bookings [409 Conflict, 501 B, 4 ms]
+  Pass  status 409
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root eff2d87d17d1cc71b831f85e
+
+  POST http://127.0.0.1:45855/v0/bookings/a3d3bf69-3bb9-48eb-8427-aab0900c5cce/reschedules [200 OK, 536 B, 14 ms]
+  Pass  status 200
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  same committed identity
+  Pass  version
+
+Root cc7ffde48f88fd2766961685
+
+  POST http://127.0.0.1:45855/v0/bookings/a3d3bf69-3bb9-48eb-8427-aab0900c5cce/reschedules [409 Conflict, 512 B, 4 ms]
+  Pass  status 409
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root a652411c4518db0a44954887
+
+  POST http://127.0.0.1:45855/v0/bookings/a3d3bf69-3bb9-48eb-8427-aab0900c5cce/cancellations [200 OK, 536 B, 25 ms]
+  Pass  status 200
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  truthful state
+
+Root 9949192a74cb9116be52a34b
+
+  POST http://127.0.0.1:45855/v0/bookings [201 Created, 602 B, 11 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+
+Root 097f2b48cb8dbfafbd1168a8
+
+  POST http://127.0.0.1:45855/v0/holds [201 Created, 581 B, 21 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  truthful state
+
+Root b98cd0294faf250c59b9f390
+
+  POST http://127.0.0.1:45855/v0/holds/2ded5204-735f-4bbb-ad7f-7490db4be8fb/bookings [201 Created, 602 B, 25 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+
+Root 30d9f6fa7a8cd22a7958f299
+
+  POST http://127.0.0.1:45855/v0/holds/2ded5204-735f-4bbb-ad7f-7490db4be8fb/bookings [201 Created, 602 B, 6 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  same committed identity
+
+Root 693efa037e774f9d13894c73
+
+  POST http://127.0.0.1:45855/v0/quotations [201 Created, 617 B, 15 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  truthful state
+
+Root f589fd63c8ddcee6318d7121
+
+  POST http://127.0.0.1:45855/v0/quotations/778d9a92-32f2-4139-9c8e-0d7c9a3acbd8/acceptances [201 Created, 602 B, 17 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  integer quotation snapshot
+
+Root e1f3f055d3439bd93cd9a86e
+
+  POST http://127.0.0.1:45855/v0/quotations/778d9a92-32f2-4139-9c8e-0d7c9a3acbd8/acceptances [201 Created, 602 B, 4 ms]
+  Pass  status 201
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  same committed identity
+
+Root 217a4112b949e291fd56ed1b
+
+  POST http://127.0.0.1:45855/v0/bookings [403 Forbidden, 471 B, 2 ms]
+  Pass  status 403
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root f419f4a9b55177ec513a0401
+
+  POST http://127.0.0.1:45855/v0/bookings [400 Bad Request, 501 B, 2 ms]
+  Pass  status 400
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 0e75ca22e169835a7e0eeaa8
+
+  POST http://127.0.0.1:45855/v0/quotations [400 Bad Request, 501 B, 2 ms]
+  Pass  status 400
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root b87e121af84eeaba9fc21414
+
+  POST http://127.0.0.1:45855/v0/bookings [400 Bad Request, 504 B, 2 ms]
+  Pass  status 400
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 92ca4c2aeb09ddebf8714e79
+
+  POST http://127.0.0.1:45855/v0/bookings [403 Forbidden, 484 B, 5 ms]
+  Pass  status 403
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 993e582f87a1c9c890c00ca4
+
+  POST http://127.0.0.1:45855/v0/bookings [415 Unsupported Media Type, 511 B, 1 ms]
+  Pass  status 415
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 267762b8e947135899cd414d
+
+  POST http://127.0.0.1:45855/v0/bookings [401 Unauthorized, 514 B, 1 ms]
+  Pass  status 401
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+Root 8e60951740def3f9df5c04e0
+
+  POST http://127.0.0.1:45855/v0/bookings [413 Request Entity Too Large, 498 B, 3 ms]
+  Pass  status 413
+  Pass  synthetic marker
+  Pass  no-store
+  Pass  correlation ID
+  Pass  declared response schema
+  Pass  declared content type
+  Pass  safe domain code
+
+-------------------------------------------------------------------
+|                         |          executed |            failed |
+--------------------------+-------------------+--------------------
+|              iterations |                 1 |                 0 |
+--------------------------+-------------------+--------------------
+|                requests |                25 |                 0 |
+--------------------------+-------------------+--------------------
+|            test-scripts |                25 |                 0 |
+--------------------------+-------------------+--------------------
+|      prerequest-scripts |                25 |                 0 |
+--------------------------+-------------------+--------------------
+|              assertions |               172 |                 0 |
+-------------------------------------------------------------------
+| total run duration: 4.1 s                                       |
+-------------------------------------------------------------------
+| total data received: 7.74 KB (approx)                           |
+-------------------------------------------------------------------
+| average response time: 9 ms [min: 1 ms, max: 25 ms, s.d.: 7 ms] |
+-------------------------------------------------------------------

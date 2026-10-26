@@ -1,0 +1,18 @@
+flowchart TD
+    A[Authenticated account, service or scoped-link session] --> B[Resolve explicit organization and trusted principal]
+    B --> C{Active membership or approved special path?}
+    C -->|No| X[Deny safely and audit when significant]
+    C -->|Yes| D[Resolve current authority version]
+    D --> E{Capability covers exact action?}
+    E -->|No| X
+    E -->|Yes| F{Scope covers branch, operation, queue or resource?}
+    F -->|No| X
+    F -->|Yes| G{Resource state, purpose, fields and approval permit it?}
+    G -->|No| X
+    G -->|Yes| H[Open transaction and establish local tenant context]
+    H --> I[Application command plus composite tenant keys and RLS]
+    I --> J[Commit state, evidence and outbox]
+    J --> K[Propagate verified tenant to cache, search, objects, queues and sync]
+
+    L[Ubi workforce] --> M[Case + step-up + scoped JIT grant]
+    M --> G

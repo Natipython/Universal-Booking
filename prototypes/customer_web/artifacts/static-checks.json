@@ -1,0 +1,32 @@
+{
+  "format": {
+    "args": [
+      "-l",
+      "app.go",
+      "database.go",
+      "app_test.go",
+      "cmd/demo/main.go"
+    ],
+    "exitCode": 0,
+    "output": "",
+    "stderr": ""
+  },
+  "vet": {
+    "args": [
+      "vet",
+      "./..."
+    ],
+    "exitCode": 0,
+    "output": "",
+    "stderr": ""
+  },
+  "modules": {
+    "args": [
+      "mod",
+      "verify"
+    ],
+    "exitCode": 0,
+    "output": "all modules verified\n",
+    "stderr": ""
+  }
+}

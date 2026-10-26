@@ -1,0 +1,1158 @@
+Authentication required. Run `postman login` or `postman login --with-api-key <api-key>` (add `--region <region>` if needed).
+Refer: https://learning.postman.com/docs/postman-cli/postman-cli-auth
+{
+  "violations": [
+    {
+      "file": "openapi.json",
+      "line number": "107",
+      "path": "paths./v0/bookings.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "107",
+      "path": "paths./v0/bookings.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "117",
+      "path": "paths./v0/bookings.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "117",
+      "path": "paths./v0/bookings.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "127",
+      "path": "paths./v0/bookings.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "127",
+      "path": "paths./v0/bookings.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "137",
+      "path": "paths./v0/bookings.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "137",
+      "path": "paths./v0/bookings.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "147",
+      "path": "paths./v0/bookings.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "147",
+      "path": "paths./v0/bookings.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "157",
+      "path": "paths./v0/bookings.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "157",
+      "path": "paths./v0/bookings.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "167",
+      "path": "paths./v0/bookings.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "167",
+      "path": "paths./v0/bookings.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "177",
+      "path": "paths./v0/bookings.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "177",
+      "path": "paths./v0/bookings.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "187",
+      "path": "paths./v0/bookings.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "187",
+      "path": "paths./v0/bookings.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "247",
+      "path": "paths./v0/bookings/{id}.get.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "247",
+      "path": "paths./v0/bookings/{id}.get.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "257",
+      "path": "paths./v0/bookings/{id}.get.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "257",
+      "path": "paths./v0/bookings/{id}.get.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "267",
+      "path": "paths./v0/bookings/{id}.get.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "267",
+      "path": "paths./v0/bookings/{id}.get.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "277",
+      "path": "paths./v0/bookings/{id}.get.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "277",
+      "path": "paths./v0/bookings/{id}.get.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "287",
+      "path": "paths./v0/bookings/{id}.get.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "287",
+      "path": "paths./v0/bookings/{id}.get.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "297",
+      "path": "paths./v0/bookings/{id}.get.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "297",
+      "path": "paths./v0/bookings/{id}.get.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "307",
+      "path": "paths./v0/bookings/{id}.get.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "307",
+      "path": "paths./v0/bookings/{id}.get.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "317",
+      "path": "paths./v0/bookings/{id}.get.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "317",
+      "path": "paths./v0/bookings/{id}.get.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "327",
+      "path": "paths./v0/bookings/{id}.get.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "327",
+      "path": "paths./v0/bookings/{id}.get.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "407",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "407",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "417",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "417",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "427",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "427",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "437",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "437",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "447",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "447",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "457",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "457",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "467",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "467",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "477",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "477",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "487",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "487",
+      "path": "paths./v0/bookings/{id}/reschedules.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "567",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "567",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "577",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "577",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "587",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "587",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "597",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "597",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "607",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "607",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "617",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "617",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "627",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "627",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "637",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "637",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "647",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "647",
+      "path": "paths./v0/bookings/{id}/cancellations.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "717",
+      "path": "paths./v0/holds.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "717",
+      "path": "paths./v0/holds.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "727",
+      "path": "paths./v0/holds.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "727",
+      "path": "paths./v0/holds.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "737",
+      "path": "paths./v0/holds.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "737",
+      "path": "paths./v0/holds.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "747",
+      "path": "paths./v0/holds.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "747",
+      "path": "paths./v0/holds.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "757",
+      "path": "paths./v0/holds.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "757",
+      "path": "paths./v0/holds.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "767",
+      "path": "paths./v0/holds.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "767",
+      "path": "paths./v0/holds.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "777",
+      "path": "paths./v0/holds.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "777",
+      "path": "paths./v0/holds.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "787",
+      "path": "paths./v0/holds.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "787",
+      "path": "paths./v0/holds.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "797",
+      "path": "paths./v0/holds.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "797",
+      "path": "paths./v0/holds.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "877",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "877",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "887",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "887",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "897",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "897",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "907",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "907",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "917",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "917",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "927",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "927",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "937",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "937",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "947",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "947",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "957",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "957",
+      "path": "paths./v0/holds/{id}/bookings.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1027",
+      "path": "paths./v0/quotations.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1027",
+      "path": "paths./v0/quotations.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1037",
+      "path": "paths./v0/quotations.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1037",
+      "path": "paths./v0/quotations.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1047",
+      "path": "paths./v0/quotations.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1047",
+      "path": "paths./v0/quotations.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1057",
+      "path": "paths./v0/quotations.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1057",
+      "path": "paths./v0/quotations.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1067",
+      "path": "paths./v0/quotations.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1067",
+      "path": "paths./v0/quotations.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1077",
+      "path": "paths./v0/quotations.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1077",
+      "path": "paths./v0/quotations.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1087",
+      "path": "paths./v0/quotations.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1087",
+      "path": "paths./v0/quotations.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1097",
+      "path": "paths./v0/quotations.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1097",
+      "path": "paths./v0/quotations.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1107",
+      "path": "paths./v0/quotations.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1107",
+      "path": "paths./v0/quotations.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1187",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1187",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.400.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1197",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1197",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.401.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1207",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1207",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.403.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1217",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1217",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.404.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1227",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1227",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.409.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1237",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1237",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.413.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1247",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1247",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.415.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1257",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1257",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.422.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1267",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "must match format \"media-range\"",
+      "issue type": "Syntax"
+    },
+    {
+      "file": "openapi.json",
+      "line number": "1267",
+      "path": "paths./v0/quotations/{id}/acceptances.post.responses.500.content",
+      "severity": "ERROR",
+      "issue": "property name must be valid",
+      "issue type": "Syntax"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+flowchart TD
+    A[Define capability, data, country, SLO, cost and exit need] --> B[Compare build, direct provider and intermediary]
+    B --> C[Security, privacy, legal, financial and operational due diligence]
+    C --> D[Prototype with synthetic data and realistic network/device load]
+    D --> E{Risk, contract, location, cost and fallback acceptable?}
+    E -->|No| F[Reject, change scope or select alternative]
+    E -->|Yes| G[Approve exact product, entity, region, configuration and version]
+    G --> H[Least privilege, monitoring, budgets, recovery and data controls]
+    H --> I[Continuous policy, subprocessor, incident, cost and availability review]
+    I --> J{Material change or exit trigger?}
+    J -->|No| I
+    J -->|Yes| K[Export and reconcile, switch safely, revoke and delete]
+    K --> L[Verify deletion, billing closure and late callbacks]

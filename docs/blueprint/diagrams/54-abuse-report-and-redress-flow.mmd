@@ -1,0 +1,16 @@
+flowchart TD
+    A[Risk signal, user block/report or provider alert] --> B[Immediate scoped protection where needed]
+    B --> C[Create purpose-limited case and preserve minimum evidence]
+    C --> D[Severity, language, country and conflict triage]
+    D --> E{Imminent or high-impact risk?}
+    E -->|Yes| F[Qualified urgent human review and temporary restriction]
+    E -->|No| G[Standard bounded review]
+    F --> H[Evidence-based proportionate decision]
+    G --> H
+    H --> I[Notify safely with reason, duration and appeal route]
+    I --> J{Appeal?}
+    J -->|Yes| K[Independent review including shared device/contact/network context]
+    K --> L[Uphold, narrow, reverse or remediate]
+    J -->|No| M[Expiry/review and recurrence monitoring]
+    L --> M
+    M --> N[Quality, fairness and policy improvement]
